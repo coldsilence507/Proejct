@@ -1,0 +1,9 @@
+13:find_polynomial_roots_jenkins_traub_test
+16:normalized_graph_cut_test
+52:compute_triplet_baseline_ratios_test
+53:least_unsquared_deviation_position_estimator_test
+57:pairwise_rotation_error_test
+62:hybrid_reconstruction_estimator_test
+63:incremental_reconstruction_estimator_test
+88:twoview_info_test
+90:orientations_from_maximum_spanning_tree_test

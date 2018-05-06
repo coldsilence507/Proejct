@@ -1,0 +1,3256 @@
+Start testing: Apr 21 15:46 EDT
+----------------------------------------------------------
+1/101 Testing: akaze_descriptor_test
+1/101 Test: akaze_descriptor_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/akaze_descriptor_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"akaze_descriptor_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AkazeDescriptor
+[ RUN      ] AkazeDescriptor.Sanity
+[       OK ] AkazeDescriptor.Sanity (492 ms)
+[----------] 1 test from AkazeDescriptor (492 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (492 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.53 sec
+----------------------------------------------------------
+Test Passed.
+"akaze_descriptor_test" end time: Apr 21 15:46 EDT
+"akaze_descriptor_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/101 Testing: sift_descriptor_test
+2/101 Test: sift_descriptor_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/sift_descriptor_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"sift_descriptor_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 3 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 3 tests from SiftDescriptor
+[ RUN      ] SiftDescriptor.Sanity
+[       OK ] SiftDescriptor.Sanity (2392 ms)
+[ RUN      ] SiftDescriptor.ZeroDescriptorRootSiftTest
+[       OK ] SiftDescriptor.ZeroDescriptorRootSiftTest (0 ms)
+[ RUN      ] SiftDescriptor.DifferentImageSizes
+[       OK ] SiftDescriptor.DifferentImageSizes (1210 ms)
+[----------] 3 tests from SiftDescriptor (3602 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test case ran. (3603 ms total)
+[  PASSED  ] 3 tests.
+<end of output>
+Test time =   3.66 sec
+----------------------------------------------------------
+Test Passed.
+"sift_descriptor_test" end time: Apr 21 15:46 EDT
+"sift_descriptor_test" time elapsed: 00:00:03
+----------------------------------------------------------
+
+3/101 Testing: image_test
+3/101 Test: image_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/image_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"image_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 8 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 8 tests from Image
+[ RUN      ] Image.RGBInput
+[       OK ] Image.RGBInput (157 ms)
+[ RUN      ] Image.RGBColsRows
+[       OK ] Image.RGBColsRows (15 ms)
+[ RUN      ] Image.ConvertToGrayscaleImage
+[       OK ] Image.ConvertToGrayscaleImage (92 ms)
+[ RUN      ] Image.ConvertToRGBImage
+[       OK ] Image.ConvertToRGBImage (131 ms)
+[ RUN      ] Image.BillinearInterpolate
+[       OK ] Image.BillinearInterpolate (19 ms)
+[ RUN      ] Image.ScalePixels
+[       OK ] Image.ScalePixels (96 ms)
+[ RUN      ] Image.Resize
+[       OK ] Image.Resize (56 ms)
+[ RUN      ] Image.ResizeUninitialized
+[       OK ] Image.ResizeUninitialized (84 ms)
+[----------] 8 tests from Image (650 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test case ran. (651 ms total)
+[  PASSED  ] 8 tests.
+<end of output>
+Test time =   0.69 sec
+----------------------------------------------------------
+Test Passed.
+"image_test" end time: Apr 21 15:46 EDT
+"image_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/101 Testing: sift_detector_test
+4/101 Test: sift_detector_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/sift_detector_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"sift_detector_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 2 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 2 tests from SiftDetector
+[ RUN      ] SiftDetector.Sanity
+[       OK ] SiftDetector.Sanity (671 ms)
+[ RUN      ] SiftDetector.DifferentImageSizes
+[       OK ] SiftDetector.DifferentImageSizes (1692 ms)
+[----------] 2 tests from SiftDetector (2363 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test case ran. (2363 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   2.43 sec
+----------------------------------------------------------
+Test Passed.
+"sift_detector_test" end time: Apr 21 15:46 EDT
+"sift_detector_test" time elapsed: 00:00:02
+----------------------------------------------------------
+
+5/101 Testing: brute_force_feature_matcher_test
+5/101 Test: brute_force_feature_matcher_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/brute_force_feature_matcher_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"brute_force_feature_matcher_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 6 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 6 tests from BruteForceFeatureMatcherTest
+[ RUN      ] BruteForceFeatureMatcherTest.NoOptionsInCore
+[       OK ] BruteForceFeatureMatcherTest.NoOptionsInCore (0 ms)
+[ RUN      ] BruteForceFeatureMatcherTest.RatioTestInCore
+[       OK ] BruteForceFeatureMatcherTest.RatioTestInCore (0 ms)
+[ RUN      ] BruteForceFeatureMatcherTest.SymmetricMatchesInCore
+[       OK ] BruteForceFeatureMatcherTest.SymmetricMatchesInCore (0 ms)
+[ RUN      ] BruteForceFeatureMatcherTest.NoOptionsOutOfCore
+[       OK ] BruteForceFeatureMatcherTest.NoOptionsOutOfCore (2 ms)
+[ RUN      ] BruteForceFeatureMatcherTest.RatioTestOutOfCore
+[       OK ] BruteForceFeatureMatcherTest.RatioTestOutOfCore (0 ms)
+[ RUN      ] BruteForceFeatureMatcherTest.SymmetricMatchesOutOfCore
+[       OK ] BruteForceFeatureMatcherTest.SymmetricMatchesOutOfCore (1 ms)
+[----------] 6 tests from BruteForceFeatureMatcherTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 1 test case ran. (4 ms total)
+[  PASSED  ] 6 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"brute_force_feature_matcher_test" end time: Apr 21 15:46 EDT
+"brute_force_feature_matcher_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/101 Testing: cascade_hashing_feature_matcher_test
+6/101 Test: cascade_hashing_feature_matcher_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/cascade_hashing_feature_matcher_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"cascade_hashing_feature_matcher_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 5 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 5 tests from CascadeHashingFeatureMatcherTest
+[ RUN      ] CascadeHashingFeatureMatcherTest.NoOptionsInCore
+[       OK ] CascadeHashingFeatureMatcherTest.NoOptionsInCore (1 ms)
+[ RUN      ] CascadeHashingFeatureMatcherTest.RatioTestInCore
+[       OK ] CascadeHashingFeatureMatcherTest.RatioTestInCore (0 ms)
+[ RUN      ] CascadeHashingFeatureMatcherTest.NoOptionsOutOfCore
+[       OK ] CascadeHashingFeatureMatcherTest.NoOptionsOutOfCore (1 ms)
+[ RUN      ] CascadeHashingFeatureMatcherTest.RatioTestOutOfCore
+[       OK ] CascadeHashingFeatureMatcherTest.RatioTestOutOfCore (2 ms)
+[ RUN      ] CascadeHashingFeatureMatcherTest.NoDescriptorsInCore
+[       OK ] CascadeHashingFeatureMatcherTest.NoDescriptorsInCore (0 ms)
+[----------] 5 tests from CascadeHashingFeatureMatcherTest (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test case ran. (4 ms total)
+[  PASSED  ] 5 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"cascade_hashing_feature_matcher_test" end time: Apr 21 15:46 EDT
+"cascade_hashing_feature_matcher_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/101 Testing: distance_test
+7/101 Test: distance_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/distance_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"distance_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 2 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 2 tests from L2Distance
+[ RUN      ] L2Distance.ZeroDistance
+[       OK ] L2Distance.ZeroDistance (0 ms)
+[ RUN      ] L2Distance.KnownDistance
+[       OK ] L2Distance.KnownDistance (1 ms)
+[----------] 2 tests from L2Distance (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"distance_test" end time: Apr 21 15:46 EDT
+"distance_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/101 Testing: feature_correspondence_test
+8/101 Test: feature_correspondence_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/feature_correspondence_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"feature_correspondence_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 2 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 2 tests from FeatureCorrespondence
+[ RUN      ] FeatureCorrespondence.Equality
+[       OK ] FeatureCorrespondence.Equality (0 ms)
+[ RUN      ] FeatureCorrespondence.Inequality
+[       OK ] FeatureCorrespondence.Inequality (0 ms)
+[----------] 2 tests from FeatureCorrespondence (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"feature_correspondence_test" end time: Apr 21 15:46 EDT
+"feature_correspondence_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/101 Testing: feature_matcher_utils_test
+9/101 Test: feature_matcher_utils_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/feature_matcher_utils_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"feature_matcher_utils_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from FeatureMatcherUtils
+[ RUN      ] FeatureMatcherUtils.IntersectMatches
+[       OK ] FeatureMatcherUtils.IntersectMatches (0 ms)
+[----------] 1 test from FeatureMatcherUtils (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"feature_matcher_utils_test" end time: Apr 21 15:46 EDT
+"feature_matcher_utils_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/101 Testing: guided_epipolar_matcher_test
+10/101 Test: guided_epipolar_matcher_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/guided_epipolar_matcher_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"guided_epipolar_matcher_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from GuidedEpipolarMatcherTest
+[ RUN      ] GuidedEpipolarMatcherTest.NoInputMatchesSmall
+[       OK ] GuidedEpipolarMatcherTest.NoInputMatchesSmall (20 ms)
+[ RUN      ] GuidedEpipolarMatcherTest.NoInputMatchesLarge
+[       OK ] GuidedEpipolarMatcherTest.NoInputMatchesLarge (142 ms)
+[ RUN      ] GuidedEpipolarMatcherTest.WithInputMatchesSmall
+[       OK ] GuidedEpipolarMatcherTest.WithInputMatchesSmall (17 ms)
+[ RUN      ] GuidedEpipolarMatcherTest.WithInputMatchesLarge
+[       OK ] GuidedEpipolarMatcherTest.WithInputMatchesLarge (75 ms)
+[----------] 4 tests from GuidedEpipolarMatcherTest (254 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test case ran. (254 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.29 sec
+----------------------------------------------------------
+Test Passed.
+"guided_epipolar_matcher_test" end time: Apr 21 15:46 EDT
+"guided_epipolar_matcher_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/101 Testing: closed_form_polynomial_solver_test
+11/101 Test: closed_form_polynomial_solver_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/closed_form_polynomial_solver_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"closed_form_polynomial_solver_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 5 tests from 3 test cases.
+[----------] Global test environment set-up.
+[----------] 3 tests from SolveQuadraticPolynomial
+[ RUN      ] SolveQuadraticPolynomial.DegenerateSolution
+[       OK ] SolveQuadraticPolynomial.DegenerateSolution (0 ms)
+[ RUN      ] SolveQuadraticPolynomial.SolveReals
+[       OK ] SolveQuadraticPolynomial.SolveReals (0 ms)
+[ RUN      ] SolveQuadraticPolynomial.SolveComplex
+[       OK ] SolveQuadraticPolynomial.SolveComplex (0 ms)
+[----------] 3 tests from SolveQuadraticPolynomial (0 ms total)
+
+[----------] 1 test from SolveCubicPolynomial
+[ RUN      ] SolveCubicPolynomial.SolveReals
+[       OK ] SolveCubicPolynomial.SolveReals (0 ms)
+[----------] 1 test from SolveCubicPolynomial (0 ms total)
+
+[----------] 1 test from SolveQuarticPolynomial
+[ RUN      ] SolveQuarticPolynomial.SolveReals
+[       OK ] SolveQuarticPolynomial.SolveReals (1 ms)
+[----------] 1 test from SolveQuarticPolynomial (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 3 test cases ran. (1 ms total)
+[  PASSED  ] 5 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"closed_form_polynomial_solver_test" end time: Apr 21 15:46 EDT
+"closed_form_polynomial_solver_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/101 Testing: find_polynomial_roots_companion_matrix_test
+12/101 Test: find_polynomial_roots_companion_matrix_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/find_polynomial_roots_companion_matrix_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"find_polynomial_roots_companion_matrix_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 17 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 17 tests from Polynomial
+[ RUN      ] Polynomial.InvalidPolynomialOfZeroLengthIsRejected
+E0421 15:46:38.034900 2596946752 find_polynomial_roots_companion_matrix.cc:173] Invalid polynomial of size 0 passed to FindPolynomialRoots
+[       OK ] Polynomial.InvalidPolynomialOfZeroLengthIsRejected (1 ms)
+[ RUN      ] Polynomial.ConstantPolynomialReturnsNoRoots
+[       OK ] Polynomial.ConstantPolynomialReturnsNoRoots (0 ms)
+[ RUN      ] Polynomial.LinearPolynomialWithPositiveRootWorks
+[       OK ] Polynomial.LinearPolynomialWithPositiveRootWorks (0 ms)
+[ RUN      ] Polynomial.LinearPolynomialWithNegativeRootWorks
+[       OK ] Polynomial.LinearPolynomialWithNegativeRootWorks (0 ms)
+[ RUN      ] Polynomial.QuadraticPolynomialWithPositiveRootsWorks
+[       OK ] Polynomial.QuadraticPolynomialWithPositiveRootsWorks (0 ms)
+[ RUN      ] Polynomial.QuadraticPolynomialWithOneNegativeRootWorks
+[       OK ] Polynomial.QuadraticPolynomialWithOneNegativeRootWorks (0 ms)
+[ RUN      ] Polynomial.QuadraticPolynomialWithTwoNegativeRootsWorks
+[       OK ] Polynomial.QuadraticPolynomialWithTwoNegativeRootsWorks (0 ms)
+[ RUN      ] Polynomial.QuadraticPolynomialWithCloseRootsWorks
+[       OK ] Polynomial.QuadraticPolynomialWithCloseRootsWorks (0 ms)
+[ RUN      ] Polynomial.QuadraticPolynomialWithComplexRootsWorks
+[       OK ] Polynomial.QuadraticPolynomialWithComplexRootsWorks (0 ms)
+[ RUN      ] Polynomial.QuarticPolynomialWorks
+[       OK ] Polynomial.QuarticPolynomialWorks (0 ms)
+[ RUN      ] Polynomial.QuarticPolynomialWithTwoClustersOfCloseRootsWorks
+[       OK ] Polynomial.QuarticPolynomialWithTwoClustersOfCloseRootsWorks (0 ms)
+[ RUN      ] Polynomial.QuarticPolynomialWithTwoZeroRootsWorks
+[       OK ] Polynomial.QuarticPolynomialWithTwoZeroRootsWorks (0 ms)
+[ RUN      ] Polynomial.QuarticMonomialWorks
+[       OK ] Polynomial.QuarticMonomialWorks (0 ms)
+[ RUN      ] Polynomial.NullPointerAsImaginaryPartWorks
+[       OK ] Polynomial.NullPointerAsImaginaryPartWorks (0 ms)
+[ RUN      ] Polynomial.NullPointerAsRealPartWorks
+[       OK ] Polynomial.NullPointerAsRealPartWorks (0 ms)
+[ RUN      ] Polynomial.BothOutputArgumentsNullWorks
+[       OK ] Polynomial.BothOutputArgumentsNullWorks (0 ms)
+[ RUN      ] Polynomial.CompanionMatrixManyRoots
+[       OK ] Polynomial.CompanionMatrixManyRoots (1 ms)
+[----------] 17 tests from Polynomial (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 17 tests from 1 test case ran. (2 ms total)
+[  PASSED  ] 17 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"find_polynomial_roots_companion_matrix_test" end time: Apr 21 15:46 EDT
+"find_polynomial_roots_companion_matrix_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/101 Testing: find_polynomial_roots_jenkins_traub_test
+13/101 Test: find_polynomial_roots_jenkins_traub_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/find_polynomial_roots_jenkins_traub_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"find_polynomial_roots_jenkins_traub_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 18 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 18 tests from Polynomial
+[ RUN      ] Polynomial.InvalidPolynomialOfZeroLengthIsRejected
+E0421 15:46:38.073400 2596946752 find_polynomial_roots_jenkins_traub.cc:309] Invalid polynomial of size 0 passed to FindPolynomialRootsJenkinsTraub
+[       OK ] Polynomial.InvalidPolynomialOfZeroLengthIsRejected (0 ms)
+[ RUN      ] Polynomial.ConstantPolynomialReturnsNoRoots
+[       OK ] Polynomial.ConstantPolynomialReturnsNoRoots (0 ms)
+[ RUN      ] Polynomial.LinearPolynomialWithPositiveRootWorks
+[       OK ] Polynomial.LinearPolynomialWithPositiveRootWorks (0 ms)
+[ RUN      ] Polynomial.LinearPolynomialWithNegativeRootWorks
+[       OK ] Polynomial.LinearPolynomialWithNegativeRootWorks (0 ms)
+[ RUN      ] Polynomial.QuadraticPolynomialWithPositiveRootsWorks
+[       OK ] Polynomial.QuadraticPolynomialWithPositiveRootsWorks (0 ms)
+[ RUN      ] Polynomial.QuadraticPolynomialWithOneNegativeRootWorks
+[       OK ] Polynomial.QuadraticPolynomialWithOneNegativeRootWorks (0 ms)
+[ RUN      ] Polynomial.QuadraticPolynomialWithTwoNegativeRootsWorks
+[       OK ] Polynomial.QuadraticPolynomialWithTwoNegativeRootsWorks (0 ms)
+[ RUN      ] Polynomial.QuadraticPolynomialWithCloseRootsWorks
+[       OK ] Polynomial.QuadraticPolynomialWithCloseRootsWorks (0 ms)
+[ RUN      ] Polynomial.QuadraticPolynomialWithComplexRootsWorks
+[       OK ] Polynomial.QuadraticPolynomialWithComplexRootsWorks (0 ms)
+[ RUN      ] Polynomial.QuarticPolynomialWorks
+[       OK ] Polynomial.QuarticPolynomialWorks (0 ms)
+[ RUN      ] Polynomial.QuarticPolynomialWithTwoClustersOfCloseRootsWorks
+/Users/coldsilence/TheiaSfM-master/src/theia/test/test_utils.h:66: Failure
+The difference between a[i] and b[i] is 0.042304981518939938, which exceeds tolerance, where
+a[i] evaluates to 0.08069501848106006,
+b[i] evaluates to 0.123, and
+tolerance evaluates to 1e-10.
+i = 0
+/Users/coldsilence/TheiaSfM-master/src/theia/test/test_utils.h:66: Failure
+The difference between a[i] and b[i] is 0.16530498151893994, which exceeds tolerance, where
+a[i] evaluates to 0.08069501848106006,
+b[i] evaluates to 0.246, and
+tolerance evaluates to 1e-10.
+i = 1
+/Users/coldsilence/TheiaSfM-master/src/theia/test/test_utils.h:66: Failure
+The difference between a[i] and b[i] is 122999.754, which exceeds tolerance, where
+a[i] evaluates to 0.24600000000000011,
+b[i] evaluates to 123000, and
+tolerance evaluates to 1e-10.
+i = 2
+/Users/coldsilence/TheiaSfM-master/src/theia/test/test_utils.h:66: Failure
+The difference between a[i] and b[i] is 122999.96160996304, which exceeds tolerance, where
+a[i] evaluates to 368999.96160996304,
+b[i] evaluates to 246000, and
+tolerance evaluates to 1e-10.
+i = 3
+/Users/coldsilence/TheiaSfM-master/src/theia/test/test_utils.h:66: Failure
+The difference between a[i] and b[i] is 0.092828999880726959, which exceeds tolerance, where
+a[i] evaluates to 0.092828999880726959,
+b[i] evaluates to 0, and
+tolerance evaluates to 1e-10.
+i = 1
+/Users/coldsilence/TheiaSfM-master/src/theia/test/test_utils.h:66: Failure
+The difference between a[i] and b[i] is 0.092828999880726959, which exceeds tolerance, where
+a[i] evaluates to -0.092828999880726959,
+b[i] evaluates to 0, and
+tolerance evaluates to 1e-10.
+i = 2
+[  FAILED  ] Polynomial.QuarticPolynomialWithTwoClustersOfCloseRootsWorks (0 ms)
+[ RUN      ] Polynomial.QuarticPolynomialWithTwoZeroRootsWorks
+[       OK ] Polynomial.QuarticPolynomialWithTwoZeroRootsWorks (0 ms)
+[ RUN      ] Polynomial.QuarticMonomialWorks
+[       OK ] Polynomial.QuarticMonomialWorks (0 ms)
+[ RUN      ] Polynomial.NullPointerAsImaginaryPartWorks
+[       OK ] Polynomial.NullPointerAsImaginaryPartWorks (0 ms)
+[ RUN      ] Polynomial.NullPointerAsRealPartWorks
+[       OK ] Polynomial.NullPointerAsRealPartWorks (0 ms)
+[ RUN      ] Polynomial.BothOutputArgumentsNullWorks
+[       OK ] Polynomial.BothOutputArgumentsNullWorks (0 ms)
+[ RUN      ] Polynomial.HardPolynomial1
+[       OK ] Polynomial.HardPolynomial1 (0 ms)
+[ RUN      ] Polynomial.HardPolynomial2
+[       OK ] Polynomial.HardPolynomial2 (1 ms)
+[----------] 18 tests from Polynomial (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 18 tests from 1 test case ran. (2 ms total)
+[  PASSED  ] 17 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] Polynomial.QuarticPolynomialWithTwoClustersOfCloseRootsWorks
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Failed.
+"find_polynomial_roots_jenkins_traub_test" end time: Apr 21 15:46 EDT
+"find_polynomial_roots_jenkins_traub_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/101 Testing: connected_components_test
+14/101 Test: connected_components_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/connected_components_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"connected_components_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 5 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 5 tests from ConnectedComponents
+[ RUN      ] ConnectedComponents.FullyConnectedGraph
+[       OK ] ConnectedComponents.FullyConnectedGraph (0 ms)
+[ RUN      ] ConnectedComponents.FullyDisconnectedGraph
+[       OK ] ConnectedComponents.FullyDisconnectedGraph (0 ms)
+[ RUN      ] ConnectedComponents.PartiallyConnectedGraph
+[       OK ] ConnectedComponents.PartiallyConnectedGraph (0 ms)
+[ RUN      ] ConnectedComponents.LimitComponentSize
+[       OK ] ConnectedComponents.LimitComponentSize (0 ms)
+[ RUN      ] ConnectedComponents.RandomOrder
+[       OK ] ConnectedComponents.RandomOrder (0 ms)
+[----------] 5 tests from ConnectedComponents (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 5 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"connected_components_test" end time: Apr 21 15:46 EDT
+"connected_components_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/101 Testing: minimum_spanning_tree_test
+15/101 Test: minimum_spanning_tree_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/minimum_spanning_tree_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"minimum_spanning_tree_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from MinimumSpanningTree
+[ RUN      ] MinimumSpanningTree.SimpleSpanningGraph
+[       OK ] MinimumSpanningTree.SimpleSpanningGraph (0 ms)
+[ RUN      ] MinimumSpanningTree.RandomGraph
+[       OK ] MinimumSpanningTree.RandomGraph (0 ms)
+[ RUN      ] MinimumSpanningTree.NoEdges
+[       OK ] MinimumSpanningTree.NoEdges (0 ms)
+[ RUN      ] MinimumSpanningTree.DisconnectedGraph
+[       OK ] MinimumSpanningTree.DisconnectedGraph (0 ms)
+[----------] 4 tests from MinimumSpanningTree (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"minimum_spanning_tree_test" end time: Apr 21 15:46 EDT
+"minimum_spanning_tree_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/101 Testing: normalized_graph_cut_test
+16/101 Test: normalized_graph_cut_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/normalized_graph_cut_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"normalized_graph_cut_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 3 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 3 tests from NormalizedGraphCut
+[ RUN      ] NormalizedGraphCut.SimpleGraph
+unknown file: Failure
+C++ exception with description "ncv must satisfy nev < ncv <= n, n is the size of matrix" thrown in the test body.
+[  FAILED  ] NormalizedGraphCut.SimpleGraph (0 ms)
+[ RUN      ] NormalizedGraphCut.SimpleGraph1
+unknown file: Failure
+C++ exception with description "ncv must satisfy nev < ncv <= n, n is the size of matrix" thrown in the test body.
+[  FAILED  ] NormalizedGraphCut.SimpleGraph1 (0 ms)
+[ RUN      ] NormalizedGraphCut.FullyConnected
+[       OK ] NormalizedGraphCut.FullyConnected (15 ms)
+[----------] 3 tests from NormalizedGraphCut (15 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test case ran. (15 ms total)
+[  PASSED  ] 1 test.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] NormalizedGraphCut.SimpleGraph
+[  FAILED  ] NormalizedGraphCut.SimpleGraph1
+
+ 2 FAILED TESTS
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Failed.
+"normalized_graph_cut_test" end time: Apr 21 15:46 EDT
+"normalized_graph_cut_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/101 Testing: triplet_extractor_test
+17/101 Test: triplet_extractor_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/triplet_extractor_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"triplet_extractor_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 3 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 3 tests from ViewTriplet
+[ RUN      ] ViewTriplet.NoTriplets
+[       OK ] ViewTriplet.NoTriplets (0 ms)
+[ RUN      ] ViewTriplet.TwoTripletsOneSet
+[       OK ] ViewTriplet.TwoTripletsOneSet (0 ms)
+[ RUN      ] ViewTriplet.DisconnectedSets
+[       OK ] ViewTriplet.DisconnectedSets (0 ms)
+[----------] 3 tests from ViewTriplet (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 3 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"triplet_extractor_test" end time: Apr 21 15:46 EDT
+"triplet_extractor_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/101 Testing: l1_solver_test
+18/101 Test: l1_solver_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/l1_solver_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"l1_solver_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 2 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 2 tests from L1Solver
+[ RUN      ] L1Solver.SmallProblem
+[       OK ] L1Solver.SmallProblem (2 ms)
+[ RUN      ] L1Solver.Decoding
+[       OK ] L1Solver.Decoding (111 ms)
+[----------] 2 tests from L1Solver (113 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test case ran. (113 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Passed.
+"l1_solver_test" end time: Apr 21 15:46 EDT
+"l1_solver_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/101 Testing: gauss_jordan_test
+19/101 Test: gauss_jordan_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/gauss_jordan_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"gauss_jordan_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from GaussJordan
+[ RUN      ] GaussJordan.SimpleTest
+[       OK ] GaussJordan.SimpleTest (0 ms)
+[----------] 1 test from GaussJordan (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"gauss_jordan_test" end time: Apr 21 15:46 EDT
+"gauss_jordan_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/101 Testing: rq_decomposition_test
+20/101 Test: rq_decomposition_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/rq_decomposition_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"rq_decomposition_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from RQTest
+[ RUN      ] RQTest.FixedSizeMatrices
+[       OK ] RQTest.FixedSizeMatrices (1 ms)
+[ RUN      ] RQTest.DynamicSizedMatrices
+[       OK ] RQTest.DynamicSizedMatrices (315 ms)
+[ RUN      ] RQTest.FloatMatrices
+[       OK ] RQTest.FloatMatrices (0 ms)
+[ RUN      ] RQTest.RowMajorMatrices
+[       OK ] RQTest.RowMajorMatrices (0 ms)
+[----------] 4 tests from RQTest (316 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test case ran. (316 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.36 sec
+----------------------------------------------------------
+Test Passed.
+"rq_decomposition_test" end time: Apr 21 15:46 EDT
+"rq_decomposition_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/101 Testing: polynomial_test
+21/101 Test: polynomial_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/polynomial_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"polynomial_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 12 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 12 tests from Polynomial
+[ RUN      ] Polynomial.FindRootIterativeLaguerreTest
+[       OK ] Polynomial.FindRootIterativeLaguerreTest (0 ms)
+[ RUN      ] Polynomial.FindRootIterativeNewtonTest
+[       OK ] Polynomial.FindRootIterativeNewtonTest (0 ms)
+[ RUN      ] Polynomial.DifferentiateConstantPolynomial
+[       OK ] Polynomial.DifferentiateConstantPolynomial (0 ms)
+[ RUN      ] Polynomial.DifferentiateQuadraticPolynomial
+[       OK ] Polynomial.DifferentiateQuadraticPolynomial (0 ms)
+[ RUN      ] Polynomial.MultiplyPolynomials
+[       OK ] Polynomial.MultiplyPolynomials (0 ms)
+[ RUN      ] Polynomial.DividePolynomialSameDegree
+[       OK ] Polynomial.DividePolynomialSameDegree (0 ms)
+[ RUN      ] Polynomial.DividePolynomialLowerDegree
+[       OK ] Polynomial.DividePolynomialLowerDegree (0 ms)
+[ RUN      ] Polynomial.DividePolynomialHigherDegree
+[       OK ] Polynomial.DividePolynomialHigherDegree (0 ms)
+[ RUN      ] Polynomial.DividePolynomial
+[       OK ] Polynomial.DividePolynomial (0 ms)
+[ RUN      ] Polynomial.MinimizeConstantPolynomial
+[       OK ] Polynomial.MinimizeConstantPolynomial (0 ms)
+[ RUN      ] Polynomial.MinimizeLinearPolynomial
+[       OK ] Polynomial.MinimizeLinearPolynomial (0 ms)
+[ RUN      ] Polynomial.MinimizeQuadraticPolynomial
+[       OK ] Polynomial.MinimizeQuadraticPolynomial (0 ms)
+[----------] 12 tests from Polynomial (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 12 tests.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"polynomial_test" end time: Apr 21 15:46 EDT
+"polynomial_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/101 Testing: sprt_test
+22/101 Test: sprt_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/sprt_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"sprt_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 3 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 3 tests from SPRTTest
+[ RUN      ] SPRTTest.CalculateSPRTDecisionThreshold
+[       OK ] SPRTTest.CalculateSPRTDecisionThreshold (0 ms)
+[ RUN      ] SPRTTest.SequentialProbabilityRatioTestPass
+[       OK ] SPRTTest.SequentialProbabilityRatioTestPass (1 ms)
+[ RUN      ] SPRTTest.SequentialProbabilityRatioTestFail
+[       OK ] SPRTTest.SequentialProbabilityRatioTestFail (0 ms)
+[----------] 3 tests from SPRTTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 3 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"sprt_test" end time: Apr 21 15:46 EDT
+"sprt_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/101 Testing: qp_solver_test
+23/101 Test: qp_solver_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/qp_solver_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"qp_solver_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from QPSolver
+[ RUN      ] QPSolver.Unbounded
+[       OK ] QPSolver.Unbounded (1 ms)
+[ RUN      ] QPSolver.LooseBounds
+[       OK ] QPSolver.LooseBounds (0 ms)
+[ RUN      ] QPSolver.TightBounds
+[       OK ] QPSolver.TightBounds (0 ms)
+[ RUN      ] QPSolver.InvalidBounds
+[       OK ] QPSolver.InvalidBounds (1 ms)
+[----------] 4 tests from QPSolver (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test case ran. (2 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"qp_solver_test" end time: Apr 21 15:46 EDT
+"qp_solver_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/101 Testing: rotation_test
+24/101 Test: rotation_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/rotation_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"rotation_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 6 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 6 tests from MultiplyRotations
+[ RUN      ] MultiplyRotations.BasicTest
+[       OK ] MultiplyRotations.BasicTest (0 ms)
+[ RUN      ] MultiplyRotations.SmallFirstRotation
+[       OK ] MultiplyRotations.SmallFirstRotation (0 ms)
+[ RUN      ] MultiplyRotations.SmallSecondRotation
+[       OK ] MultiplyRotations.SmallSecondRotation (0 ms)
+[ RUN      ] MultiplyRotations.BothSmallRotations
+[       OK ] MultiplyRotations.BothSmallRotations (0 ms)
+[ RUN      ] MultiplyRotations.OppositeRotations
+[       OK ] MultiplyRotations.OppositeRotations (0 ms)
+[ RUN      ] MultiplyRotations.DifficultRotatations
+[       OK ] MultiplyRotations.DifficultRotatations (0 ms)
+[----------] 6 tests from MultiplyRotations (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 6 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"rotation_test" end time: Apr 21 15:46 EDT
+"rotation_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/101 Testing: optimize_relative_position_with_known_rotation_test
+25/101 Test: optimize_relative_position_with_known_rotation_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/optimize_relative_position_with_known_rotation_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"optimize_relative_position_with_known_rotation_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from OptimizeRelativePositionWithKnownRotationTest
+[ RUN      ] OptimizeRelativePositionWithKnownRotationTest.NoNoise
+[       OK ] OptimizeRelativePositionWithKnownRotationTest.NoNoise (0 ms)
+[ RUN      ] OptimizeRelativePositionWithKnownRotationTest.PixelNoise
+[       OK ] OptimizeRelativePositionWithKnownRotationTest.PixelNoise (0 ms)
+[ RUN      ] OptimizeRelativePositionWithKnownRotationTest.TranslationNoise
+[       OK ] OptimizeRelativePositionWithKnownRotationTest.TranslationNoise (0 ms)
+[ RUN      ] OptimizeRelativePositionWithKnownRotationTest.PixelAndTranslationNoise
+[       OK ] OptimizeRelativePositionWithKnownRotationTest.PixelAndTranslationNoise (0 ms)
+[----------] 4 tests from OptimizeRelativePositionWithKnownRotationTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"optimize_relative_position_with_known_rotation_test" end time: Apr 21 15:46 EDT
+"optimize_relative_position_with_known_rotation_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/101 Testing: camera_test
+26/101 Test: camera_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/camera_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"camera_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 6 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 6 tests from Camera
+[ RUN      ] Camera.ProjectionMatrix
+[       OK ] Camera.ProjectionMatrix (0 ms)
+[ RUN      ] Camera.InternalParameterGettersAndSetters
+[       OK ] Camera.InternalParameterGettersAndSetters (0 ms)
+[ RUN      ] Camera.ExternalParameterGettersAndSetters
+[       OK ] Camera.ExternalParameterGettersAndSetters (0 ms)
+[ RUN      ] Camera.SetFromCameraIntrinsicsPrior
+[       OK ] Camera.SetFromCameraIntrinsicsPrior (0 ms)
+[ RUN      ] Camera.Reprojection
+[       OK ] Camera.Reprojection (1 ms)
+[ RUN      ] Camera.SetCameraIntrinsicsModelType
+[       OK ] Camera.SetCameraIntrinsicsModelType (0 ms)
+[----------] 6 tests from Camera (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 6 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"camera_test" end time: Apr 21 15:46 EDT
+"camera_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/101 Testing: division_undistortion_camera_model_test
+27/101 Test: division_undistortion_camera_model_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/division_undistortion_camera_model_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"division_undistortion_camera_model_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 14 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 14 tests from DivisionUndistortionCameraModel
+[ RUN      ] DivisionUndistortionCameraModel.InternalParameterGettersAndSetters
+[       OK ] DivisionUndistortionCameraModel.InternalParameterGettersAndSetters (0 ms)
+[ RUN      ] DivisionUndistortionCameraModel.CameraParameterGettersAndSetters
+[       OK ] DivisionUndistortionCameraModel.CameraParameterGettersAndSetters (0 ms)
+[ RUN      ] DivisionUndistortionCameraModel.SetFromCameraIntrinsicsPriors
+[       OK ] DivisionUndistortionCameraModel.SetFromCameraIntrinsicsPriors (0 ms)
+[ RUN      ] DivisionUndistortionCameraModel.GetSubsetFromOptimizeIntrinsicsType
+[       OK ] DivisionUndistortionCameraModel.GetSubsetFromOptimizeIntrinsicsType (1 ms)
+[ RUN      ] DivisionUndistortionCameraModel.DistortionTestNoDistortion
+[       OK ] DivisionUndistortionCameraModel.DistortionTestNoDistortion (0 ms)
+[ RUN      ] DivisionUndistortionCameraModel.DistortionTestSmall
+[       OK ] DivisionUndistortionCameraModel.DistortionTestSmall (1 ms)
+[ RUN      ] DivisionUndistortionCameraModel.DistortionTestMedium
+[       OK ] DivisionUndistortionCameraModel.DistortionTestMedium (1 ms)
+[ RUN      ] DivisionUndistortionCameraModel.DistortionTestLarge
+[       OK ] DivisionUndistortionCameraModel.DistortionTestLarge (1 ms)
+[ RUN      ] DivisionUndistortionCameraModel.ReprojectionNoDistortion
+[       OK ] DivisionUndistortionCameraModel.ReprojectionNoDistortion (4 ms)
+[ RUN      ] DivisionUndistortionCameraModel.ReprojectionSmall
+[       OK ] DivisionUndistortionCameraModel.ReprojectionSmall (7 ms)
+[ RUN      ] DivisionUndistortionCameraModel.ReprojectionMedium
+[       OK ] DivisionUndistortionCameraModel.ReprojectionMedium (5 ms)
+[ RUN      ] DivisionUndistortionCameraModel.ReprojectionLarge
+[       OK ] DivisionUndistortionCameraModel.ReprojectionLarge (7 ms)
+[ RUN      ] DivisionUndistortionCameraModel.Triangulation
+[       OK ] DivisionUndistortionCameraModel.Triangulation (0 ms)
+[ RUN      ] DivisionUndistortionCameraModel.NoDistortion
+[       OK ] DivisionUndistortionCameraModel.NoDistortion (0 ms)
+[----------] 14 tests from DivisionUndistortionCameraModel (27 ms total)
+
+[----------] Global test environment tear-down
+[==========] 14 tests from 1 test case ran. (27 ms total)
+[  PASSED  ] 14 tests.
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"division_undistortion_camera_model_test" end time: Apr 21 15:46 EDT
+"division_undistortion_camera_model_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/101 Testing: fisheye_camera_model_test
+28/101 Test: fisheye_camera_model_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/fisheye_camera_model_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"fisheye_camera_model_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 8 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 8 tests from FisheyeCameraModel
+[ RUN      ] FisheyeCameraModel.InternalParameterGettersAndSetters
+[       OK ] FisheyeCameraModel.InternalParameterGettersAndSetters (0 ms)
+[ RUN      ] FisheyeCameraModel.SetFromCameraIntrinsicsPriors
+[       OK ] FisheyeCameraModel.SetFromCameraIntrinsicsPriors (0 ms)
+[ RUN      ] FisheyeCameraModel.GetSubsetFromOptimizeIntrinsicsType
+[       OK ] FisheyeCameraModel.GetSubsetFromOptimizeIntrinsicsType (0 ms)
+[ RUN      ] FisheyeCameraModel.ReprojectionNoDistortion
+[       OK ] FisheyeCameraModel.ReprojectionNoDistortion (24 ms)
+[ RUN      ] FisheyeCameraModel.ReprojectionOneDistortion
+[       OK ] FisheyeCameraModel.ReprojectionOneDistortion (24 ms)
+[ RUN      ] FisheyeCameraModel.ReprojectionTwoDistortion
+[       OK ] FisheyeCameraModel.ReprojectionTwoDistortion (22 ms)
+[ RUN      ] FisheyeCameraModel.ReprojectionThreeDistortion
+[       OK ] FisheyeCameraModel.ReprojectionThreeDistortion (25 ms)
+[ RUN      ] FisheyeCameraModel.ReprojectionFourDistortion
+[       OK ] FisheyeCameraModel.ReprojectionFourDistortion (23 ms)
+[----------] 8 tests from FisheyeCameraModel (118 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test case ran. (118 ms total)
+[  PASSED  ] 8 tests.
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Passed.
+"fisheye_camera_model_test" end time: Apr 21 15:46 EDT
+"fisheye_camera_model_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/101 Testing: fov_camera_model_test
+29/101 Test: fov_camera_model_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/fov_camera_model_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"fov_camera_model_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 7 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 7 tests from FOVCameraModel
+[ RUN      ] FOVCameraModel.InternalParameterGettersAndSetters
+[       OK ] FOVCameraModel.InternalParameterGettersAndSetters (0 ms)
+[ RUN      ] FOVCameraModel.SetFromCameraIntrinsicsPriors
+[       OK ] FOVCameraModel.SetFromCameraIntrinsicsPriors (0 ms)
+[ RUN      ] FOVCameraModel.GetSubsetFromOptimizeIntrinsicsType
+[       OK ] FOVCameraModel.GetSubsetFromOptimizeIntrinsicsType (0 ms)
+[ RUN      ] FOVCameraModel.ReprojectionNoDistortion
+[       OK ] FOVCameraModel.ReprojectionNoDistortion (7 ms)
+[ RUN      ] FOVCameraModel.ReprojectionOneDistortionSmall
+[       OK ] FOVCameraModel.ReprojectionOneDistortionSmall (6 ms)
+[ RUN      ] FOVCameraModel.ReprojectionOneDistortionMedium
+[       OK ] FOVCameraModel.ReprojectionOneDistortionMedium (17 ms)
+[ RUN      ] FOVCameraModel.ReprojectionOneDistortionLarge
+[       OK ] FOVCameraModel.ReprojectionOneDistortionLarge (20 ms)
+[----------] 7 tests from FOVCameraModel (51 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test case ran. (51 ms total)
+[  PASSED  ] 7 tests.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"fov_camera_model_test" end time: Apr 21 15:46 EDT
+"fov_camera_model_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/101 Testing: pinhole_camera_model_test
+30/101 Test: pinhole_camera_model_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/pinhole_camera_model_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"pinhole_camera_model_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 6 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 6 tests from PinholeCameraModel
+[ RUN      ] PinholeCameraModel.InternalParameterGettersAndSetters
+[       OK ] PinholeCameraModel.InternalParameterGettersAndSetters (0 ms)
+[ RUN      ] PinholeCameraModel.SetFromCameraIntrinsicsPriors
+[       OK ] PinholeCameraModel.SetFromCameraIntrinsicsPriors (0 ms)
+[ RUN      ] PinholeCameraModel.GetSubsetFromOptimizeIntrinsicsType
+[       OK ] PinholeCameraModel.GetSubsetFromOptimizeIntrinsicsType (0 ms)
+[ RUN      ] PinholeCameraModel.ReprojectionNoDistortion
+[       OK ] PinholeCameraModel.ReprojectionNoDistortion (5 ms)
+[ RUN      ] PinholeCameraModel.ReprojectionOneDistortion
+[       OK ] PinholeCameraModel.ReprojectionOneDistortion (8 ms)
+[ RUN      ] PinholeCameraModel.ReprojectionTwoDistortion
+[       OK ] PinholeCameraModel.ReprojectionTwoDistortion (6 ms)
+[----------] 6 tests from PinholeCameraModel (19 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 1 test case ran. (19 ms total)
+[  PASSED  ] 6 tests.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"pinhole_camera_model_test" end time: Apr 21 15:46 EDT
+"pinhole_camera_model_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/101 Testing: pinhole_radial_tangential_camera_model_test
+31/101 Test: pinhole_radial_tangential_camera_model_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/pinhole_radial_tangential_camera_model_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"pinhole_radial_tangential_camera_model_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 8 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 8 tests from PinholeRadialTangentialCameraModel
+[ RUN      ] PinholeRadialTangentialCameraModel.InternalParameterGettersAndSetters
+[       OK ] PinholeRadialTangentialCameraModel.InternalParameterGettersAndSetters (0 ms)
+[ RUN      ] PinholeRadialTangentialCameraModel.SetFromCameraIntrinsicsPriors
+[       OK ] PinholeRadialTangentialCameraModel.SetFromCameraIntrinsicsPriors (0 ms)
+[ RUN      ] PinholeRadialTangentialCameraModel.GetSubsetFromOptimizeIntrinsicsType
+[       OK ] PinholeRadialTangentialCameraModel.GetSubsetFromOptimizeIntrinsicsType (0 ms)
+[ RUN      ] PinholeRadialTangentialCameraModel.ReprojectionNoDistortion
+[       OK ] PinholeRadialTangentialCameraModel.ReprojectionNoDistortion (8 ms)
+[ RUN      ] PinholeRadialTangentialCameraModel.ReprojectionOneRadialDistortion
+[       OK ] PinholeRadialTangentialCameraModel.ReprojectionOneRadialDistortion (8 ms)
+[ RUN      ] PinholeRadialTangentialCameraModel.ReprojectionTwoRadialDistortion
+[       OK ] PinholeRadialTangentialCameraModel.ReprojectionTwoRadialDistortion (8 ms)
+[ RUN      ] PinholeRadialTangentialCameraModel.ReprojectionOneTangentialDistortion
+[       OK ] PinholeRadialTangentialCameraModel.ReprojectionOneTangentialDistortion (8 ms)
+[ RUN      ] PinholeRadialTangentialCameraModel.ReprojectionTwoTangentialDistortion
+[       OK ] PinholeRadialTangentialCameraModel.ReprojectionTwoTangentialDistortion (9 ms)
+[----------] 8 tests from PinholeRadialTangentialCameraModel (41 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test case ran. (41 ms total)
+[  PASSED  ] 8 tests.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"pinhole_radial_tangential_camera_model_test" end time: Apr 21 15:46 EDT
+"pinhole_radial_tangential_camera_model_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/101 Testing: projection_matrix_utils_test
+32/101 Test: projection_matrix_utils_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/projection_matrix_utils_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"projection_matrix_utils_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 6 tests from 4 test cases.
+[----------] Global test environment set-up.
+[----------] 2 tests from CameraIntrinsics
+[ RUN      ] CameraIntrinsics.IntrinsicsToCalibrationMatrix
+[       OK ] CameraIntrinsics.IntrinsicsToCalibrationMatrix (0 ms)
+[ RUN      ] CameraIntrinsics.CalibrationMatrixToIntrinsics
+[       OK ] CameraIntrinsics.CalibrationMatrixToIntrinsics (0 ms)
+[----------] 2 tests from CameraIntrinsics (0 ms total)
+
+[----------] 1 test from DecomposeProjectMatrix
+[ RUN      ] DecomposeProjectMatrix.Random
+[       OK ] DecomposeProjectMatrix.Random (1 ms)
+[----------] 1 test from DecomposeProjectMatrix (1 ms total)
+
+[----------] 2 tests from ComposeProjectionMatrix
+[ RUN      ] ComposeProjectionMatrix.Identity
+[       OK ] ComposeProjectionMatrix.Identity (0 ms)
+[ RUN      ] ComposeProjectionMatrix.Random
+[       OK ] ComposeProjectionMatrix.Random (0 ms)
+[----------] 2 tests from ComposeProjectionMatrix (0 ms total)
+
+[----------] 1 test from ProjectionMatrix
+[ RUN      ] ProjectionMatrix.Consistency
+[       OK ] ProjectionMatrix.Consistency (1 ms)
+[----------] 1 test from ProjectionMatrix (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 4 test cases ran. (2 ms total)
+[  PASSED  ] 6 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"projection_matrix_utils_test" end time: Apr 21 15:46 EDT
+"projection_matrix_utils_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/101 Testing: estimate_absolute_pose_with_known_orientation_test
+33/101 Test: estimate_absolute_pose_with_known_orientation_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/estimate_absolute_pose_with_known_orientation_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"estimate_absolute_pose_with_known_orientation_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from EstimateAbsolutePoseWithKnownOrientation
+[ RUN      ] EstimateAbsolutePoseWithKnownOrientation.AllInliersNoNoise
+[       OK ] EstimateAbsolutePoseWithKnownOrientation.AllInliersNoNoise (2 ms)
+[ RUN      ] EstimateAbsolutePoseWithKnownOrientation.AllInliersWithNoise
+[       OK ] EstimateAbsolutePoseWithKnownOrientation.AllInliersWithNoise (1 ms)
+[ RUN      ] EstimateAbsolutePoseWithKnownOrientation.OutliersNoNoise
+[       OK ] EstimateAbsolutePoseWithKnownOrientation.OutliersNoNoise (1 ms)
+[ RUN      ] EstimateAbsolutePoseWithKnownOrientation.OutliersWithNoise
+[       OK ] EstimateAbsolutePoseWithKnownOrientation.OutliersWithNoise (1 ms)
+[----------] 4 tests from EstimateAbsolutePoseWithKnownOrientation (5 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test case ran. (5 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"estimate_absolute_pose_with_known_orientation_test" end time: Apr 21 15:46 EDT
+"estimate_absolute_pose_with_known_orientation_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/101 Testing: estimate_calibrated_absolute_pose_test
+34/101 Test: estimate_calibrated_absolute_pose_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/estimate_calibrated_absolute_pose_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"estimate_calibrated_absolute_pose_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from EstimateCalibratedAbsolutePose
+[ RUN      ] EstimateCalibratedAbsolutePose.AllInliersNoNoise
+[       OK ] EstimateCalibratedAbsolutePose.AllInliersNoNoise (7 ms)
+[ RUN      ] EstimateCalibratedAbsolutePose.AllInliersWithNoise
+[       OK ] EstimateCalibratedAbsolutePose.AllInliersWithNoise (7 ms)
+[ RUN      ] EstimateCalibratedAbsolutePose.OutliersNoNoise
+[       OK ] EstimateCalibratedAbsolutePose.OutliersNoNoise (4 ms)
+[ RUN      ] EstimateCalibratedAbsolutePose.OutliersWithNoise
+[       OK ] EstimateCalibratedAbsolutePose.OutliersWithNoise (5 ms)
+[----------] 4 tests from EstimateCalibratedAbsolutePose (23 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test case ran. (23 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"estimate_calibrated_absolute_pose_test" end time: Apr 21 15:46 EDT
+"estimate_calibrated_absolute_pose_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/101 Testing: estimate_dominant_plane_from_points_test
+35/101 Test: estimate_dominant_plane_from_points_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/estimate_dominant_plane_from_points_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"estimate_dominant_plane_from_points_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 5 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 5 tests from EstimateDominantPlane
+[ RUN      ] EstimateDominantPlane.MinimalCase
+[       OK ] EstimateDominantPlane.MinimalCase (0 ms)
+[ RUN      ] EstimateDominantPlane.AllInliersNoNoise
+[       OK ] EstimateDominantPlane.AllInliersNoNoise (0 ms)
+[ RUN      ] EstimateDominantPlane.AllInliersWithNoise
+[       OK ] EstimateDominantPlane.AllInliersWithNoise (1 ms)
+[ RUN      ] EstimateDominantPlane.OutliersNoNoise
+[       OK ] EstimateDominantPlane.OutliersNoNoise (0 ms)
+[ RUN      ] EstimateDominantPlane.OutliersWithNoise
+[       OK ] EstimateDominantPlane.OutliersWithNoise (0 ms)
+[----------] 5 tests from EstimateDominantPlane (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 5 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"estimate_dominant_plane_from_points_test" end time: Apr 21 15:46 EDT
+"estimate_dominant_plane_from_points_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/101 Testing: estimate_essential_matrix_test
+36/101 Test: estimate_essential_matrix_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/estimate_essential_matrix_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"estimate_essential_matrix_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from EstimateEssentialMatrix
+[ RUN      ] EstimateEssentialMatrix.AllInliersNoNoise
+[       OK ] EstimateEssentialMatrix.AllInliersNoNoise (18 ms)
+[ RUN      ] EstimateEssentialMatrix.AllInliersWithNoise
+[       OK ] EstimateEssentialMatrix.AllInliersWithNoise (20 ms)
+[ RUN      ] EstimateEssentialMatrix.OutliersNoNoise
+[       OK ] EstimateEssentialMatrix.OutliersNoNoise (8 ms)
+[ RUN      ] EstimateEssentialMatrix.OutliersWithNoise
+[       OK ] EstimateEssentialMatrix.OutliersWithNoise (13 ms)
+[----------] 4 tests from EstimateEssentialMatrix (59 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test case ran. (59 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"estimate_essential_matrix_test" end time: Apr 21 15:46 EDT
+"estimate_essential_matrix_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/101 Testing: estimate_fundamental_matrix_test
+37/101 Test: estimate_fundamental_matrix_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/estimate_fundamental_matrix_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"estimate_fundamental_matrix_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from EstimateFundamentalMatrix
+[ RUN      ] EstimateFundamentalMatrix.AllInliersNoNoise
+[       OK ] EstimateFundamentalMatrix.AllInliersNoNoise (141 ms)
+[ RUN      ] EstimateFundamentalMatrix.AllInliersWithNoise
+[       OK ] EstimateFundamentalMatrix.AllInliersWithNoise (155 ms)
+[ RUN      ] EstimateFundamentalMatrix.OutliersNoNoise
+[       OK ] EstimateFundamentalMatrix.OutliersNoNoise (80 ms)
+[ RUN      ] EstimateFundamentalMatrix.OutliersWithNoise
+[       OK ] EstimateFundamentalMatrix.OutliersWithNoise (79 ms)
+[----------] 4 tests from EstimateFundamentalMatrix (455 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test case ran. (455 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.49 sec
+----------------------------------------------------------
+Test Passed.
+"estimate_fundamental_matrix_test" end time: Apr 21 15:46 EDT
+"estimate_fundamental_matrix_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/101 Testing: estimate_homography_test
+38/101 Test: estimate_homography_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/estimate_homography_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"estimate_homography_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from EstimateHomography
+[ RUN      ] EstimateHomography.AllInliersNoNoise
+[       OK ] EstimateHomography.AllInliersNoNoise (13 ms)
+[ RUN      ] EstimateHomography.AllInliersWithNoise
+[       OK ] EstimateHomography.AllInliersWithNoise (14 ms)
+[ RUN      ] EstimateHomography.OutliersNoNoise
+[       OK ] EstimateHomography.OutliersNoNoise (10 ms)
+[ RUN      ] EstimateHomography.OutliersWithNoise
+[       OK ] EstimateHomography.OutliersWithNoise (8 ms)
+[----------] 4 tests from EstimateHomography (45 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test case ran. (45 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"estimate_homography_test" end time: Apr 21 15:46 EDT
+"estimate_homography_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/101 Testing: estimate_relative_pose_test
+39/101 Test: estimate_relative_pose_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/estimate_relative_pose_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"estimate_relative_pose_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from EstimateRelativePose
+[ RUN      ] EstimateRelativePose.AllInliersNoNoise
+[       OK ] EstimateRelativePose.AllInliersNoNoise (17 ms)
+[ RUN      ] EstimateRelativePose.AllInliersWithNoise
+[       OK ] EstimateRelativePose.AllInliersWithNoise (26 ms)
+[ RUN      ] EstimateRelativePose.OutliersNoNoise
+[       OK ] EstimateRelativePose.OutliersNoNoise (17 ms)
+[ RUN      ] EstimateRelativePose.OutliersWithNoise
+[       OK ] EstimateRelativePose.OutliersWithNoise (17 ms)
+[----------] 4 tests from EstimateRelativePose (77 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test case ran. (77 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"estimate_relative_pose_test" end time: Apr 21 15:46 EDT
+"estimate_relative_pose_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/101 Testing: estimate_relative_pose_with_known_orientation_test
+40/101 Test: estimate_relative_pose_with_known_orientation_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/estimate_relative_pose_with_known_orientation_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"estimate_relative_pose_with_known_orientation_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from EstimateRelativePoseWithKnownOrientation
+[ RUN      ] EstimateRelativePoseWithKnownOrientation.AllInliersNoNoise
+[       OK ] EstimateRelativePoseWithKnownOrientation.AllInliersNoNoise (3 ms)
+[ RUN      ] EstimateRelativePoseWithKnownOrientation.AllInliersWithNoise
+[       OK ] EstimateRelativePoseWithKnownOrientation.AllInliersWithNoise (3 ms)
+[ RUN      ] EstimateRelativePoseWithKnownOrientation.OutliersNoNoise
+[       OK ] EstimateRelativePoseWithKnownOrientation.OutliersNoNoise (1 ms)
+[ RUN      ] EstimateRelativePoseWithKnownOrientation.OutliersWithNoise
+[       OK ] EstimateRelativePoseWithKnownOrientation.OutliersWithNoise (2 ms)
+[----------] 4 tests from EstimateRelativePoseWithKnownOrientation (9 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test case ran. (9 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"estimate_relative_pose_with_known_orientation_test" end time: Apr 21 15:46 EDT
+"estimate_relative_pose_with_known_orientation_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/101 Testing: estimate_similarity_transformation_2d_3d_test
+41/101 Test: estimate_similarity_transformation_2d_3d_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/estimate_similarity_transformation_2d_3d_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"estimate_similarity_transformation_2d_3d_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from EstimateSimilarityTransformation2D3D
+[ RUN      ] EstimateSimilarityTransformation2D3D.AllInliersNoNoise
+[       OK ] EstimateSimilarityTransformation2D3D.AllInliersNoNoise (62 ms)
+[ RUN      ] EstimateSimilarityTransformation2D3D.AllInliersWithNoise
+[       OK ] EstimateSimilarityTransformation2D3D.AllInliersWithNoise (56 ms)
+[ RUN      ] EstimateSimilarityTransformation2D3D.OutliersNoNoise
+[       OK ] EstimateSimilarityTransformation2D3D.OutliersNoNoise (57 ms)
+[ RUN      ] EstimateSimilarityTransformation2D3D.OutliersWithNoise
+[       OK ] EstimateSimilarityTransformation2D3D.OutliersWithNoise (60 ms)
+[----------] 4 tests from EstimateSimilarityTransformation2D3D (235 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test case ran. (236 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.27 sec
+----------------------------------------------------------
+Test Passed.
+"estimate_similarity_transformation_2d_3d_test" end time: Apr 21 15:46 EDT
+"estimate_similarity_transformation_2d_3d_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/101 Testing: estimate_triangulation_test
+42/101 Test: estimate_triangulation_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/estimate_triangulation_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"estimate_triangulation_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 3 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 3 tests from EstimateTriangulation
+[ RUN      ] EstimateTriangulation.InsufficientObservations
+[       OK ] EstimateTriangulation.InsufficientObservations (0 ms)
+[ RUN      ] EstimateTriangulation.TwoViews
+[       OK ] EstimateTriangulation.TwoViews (0 ms)
+[ RUN      ] EstimateTriangulation.WithOutliers
+[       OK ] EstimateTriangulation.WithOutliers (1 ms)
+[----------] 3 tests from EstimateTriangulation (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 3 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"estimate_triangulation_test" end time: Apr 21 15:46 EDT
+"estimate_triangulation_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/101 Testing: estimate_uncalibrated_absolute_pose_test
+43/101 Test: estimate_uncalibrated_absolute_pose_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/estimate_uncalibrated_absolute_pose_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"estimate_uncalibrated_absolute_pose_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from EstimateUncalibratedAbsolutePose
+[ RUN      ] EstimateUncalibratedAbsolutePose.AllInliersNoNoise
+[       OK ] EstimateUncalibratedAbsolutePose.AllInliersNoNoise (89 ms)
+[ RUN      ] EstimateUncalibratedAbsolutePose.AllInliersWithNoise
+[       OK ] EstimateUncalibratedAbsolutePose.AllInliersWithNoise (83 ms)
+[ RUN      ] EstimateUncalibratedAbsolutePose.OutliersNoNoise
+[       OK ] EstimateUncalibratedAbsolutePose.OutliersNoNoise (53 ms)
+[ RUN      ] EstimateUncalibratedAbsolutePose.OutliersWithNoise
+[       OK ] EstimateUncalibratedAbsolutePose.OutliersWithNoise (57 ms)
+[----------] 4 tests from EstimateUncalibratedAbsolutePose (282 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test case ran. (282 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.32 sec
+----------------------------------------------------------
+Test Passed.
+"estimate_uncalibrated_absolute_pose_test" end time: Apr 21 15:46 EDT
+"estimate_uncalibrated_absolute_pose_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/101 Testing: estimate_uncalibrated_relative_pose_test
+44/101 Test: estimate_uncalibrated_relative_pose_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/estimate_uncalibrated_relative_pose_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"estimate_uncalibrated_relative_pose_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from EstimateUncalibratedRelativePose
+[ RUN      ] EstimateUncalibratedRelativePose.AllInliersNoNoise
+[       OK ] EstimateUncalibratedRelativePose.AllInliersNoNoise (236 ms)
+[ RUN      ] EstimateUncalibratedRelativePose.AllInliersWithNoise
+[       OK ] EstimateUncalibratedRelativePose.AllInliersWithNoise (214 ms)
+[ RUN      ] EstimateUncalibratedRelativePose.OutliersNoNoise
+[       OK ] EstimateUncalibratedRelativePose.OutliersNoNoise (197 ms)
+[ RUN      ] EstimateUncalibratedRelativePose.OutliersWithNoise
+[       OK ] EstimateUncalibratedRelativePose.OutliersWithNoise (213 ms)
+[----------] 4 tests from EstimateUncalibratedRelativePose (860 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test case ran. (860 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.90 sec
+----------------------------------------------------------
+Test Passed.
+"estimate_uncalibrated_relative_pose_test" end time: Apr 21 15:46 EDT
+"estimate_uncalibrated_relative_pose_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/101 Testing: exif_reader_test
+45/101 Test: exif_reader_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/exif_reader_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"exif_reader_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 2 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 2 tests from ExtractEXIFMetadata
+[ RUN      ] ExtractEXIFMetadata.FocalLengthEXIF
+[       OK ] ExtractEXIFMetadata.FocalLengthEXIF (13 ms)
+[ RUN      ] ExtractEXIFMetadata.GPS
+[       OK ] ExtractEXIFMetadata.GPS (10 ms)
+[----------] 2 tests from ExtractEXIFMetadata (23 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test case ran. (23 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"exif_reader_test" end time: Apr 21 15:46 EDT
+"exif_reader_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/101 Testing: extract_maximally_parallel_rigid_subgraph_test
+46/101 Test: extract_maximally_parallel_rigid_subgraph_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/extract_maximally_parallel_rigid_subgraph_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"extract_maximally_parallel_rigid_subgraph_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 3 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 3 tests from ExtractMaximallyParallelRigidSubgraph
+[ RUN      ] ExtractMaximallyParallelRigidSubgraph.NoBadRotations
+[       OK ] ExtractMaximallyParallelRigidSubgraph.NoBadRotations (1 ms)
+[ RUN      ] ExtractMaximallyParallelRigidSubgraph.FewBadRotations
+[       OK ] ExtractMaximallyParallelRigidSubgraph.FewBadRotations (0 ms)
+[ RUN      ] ExtractMaximallyParallelRigidSubgraph.ManyBadRotations
+[       OK ] ExtractMaximallyParallelRigidSubgraph.ManyBadRotations (3 ms)
+[----------] 3 tests from ExtractMaximallyParallelRigidSubgraph (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test case ran. (4 ms total)
+[  PASSED  ] 3 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"extract_maximally_parallel_rigid_subgraph_test" end time: Apr 21 15:46 EDT
+"extract_maximally_parallel_rigid_subgraph_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+47/101 Testing: filter_view_graph_cycles_by_rotation_test
+47/101 Test: filter_view_graph_cycles_by_rotation_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/filter_view_graph_cycles_by_rotation_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"filter_view_graph_cycles_by_rotation_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 3 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 3 tests from FilterViewGraphCyclesByRotation
+[ RUN      ] FilterViewGraphCyclesByRotation.NoBadRotations
+[       OK ] FilterViewGraphCyclesByRotation.NoBadRotations (0 ms)
+[ RUN      ] FilterViewGraphCyclesByRotation.FewBadRotations
+[       OK ] FilterViewGraphCyclesByRotation.FewBadRotations (1 ms)
+[ RUN      ] FilterViewGraphCyclesByRotation.ManyBadRotations
+[       OK ] FilterViewGraphCyclesByRotation.ManyBadRotations (0 ms)
+[----------] 3 tests from FilterViewGraphCyclesByRotation (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 3 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"filter_view_graph_cycles_by_rotation_test" end time: Apr 21 15:46 EDT
+"filter_view_graph_cycles_by_rotation_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+48/101 Testing: filter_view_pairs_from_orientation_test
+48/101 Test: filter_view_pairs_from_orientation_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/filter_view_pairs_from_orientation_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"filter_view_pairs_from_orientation_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 3 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 3 tests from FilterViewPairsFromOrientation
+[ RUN      ] FilterViewPairsFromOrientation.NoBadRotations
+[       OK ] FilterViewPairsFromOrientation.NoBadRotations (0 ms)
+[ RUN      ] FilterViewPairsFromOrientation.FewBadRotations
+[       OK ] FilterViewPairsFromOrientation.FewBadRotations (1 ms)
+[ RUN      ] FilterViewPairsFromOrientation.ManyBadRotations
+[       OK ] FilterViewPairsFromOrientation.ManyBadRotations (0 ms)
+[----------] 3 tests from FilterViewPairsFromOrientation (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 3 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"filter_view_pairs_from_orientation_test" end time: Apr 21 15:46 EDT
+"filter_view_pairs_from_orientation_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+49/101 Testing: filter_view_pairs_from_relative_translation_test
+49/101 Test: filter_view_pairs_from_relative_translation_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/filter_view_pairs_from_relative_translation_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"filter_view_pairs_from_relative_translation_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from FilterViewPairsFromRelativeTranslation
+[ RUN      ] FilterViewPairsFromRelativeTranslation.LineTest
+[       OK ] FilterViewPairsFromRelativeTranslation.LineTest (0 ms)
+[ RUN      ] FilterViewPairsFromRelativeTranslation.NoBadRotations
+[       OK ] FilterViewPairsFromRelativeTranslation.NoBadRotations (2 ms)
+[ RUN      ] FilterViewPairsFromRelativeTranslation.FewBadRotations
+[       OK ] FilterViewPairsFromRelativeTranslation.FewBadRotations (2 ms)
+[ RUN      ] FilterViewPairsFromRelativeTranslation.ManyBadRotations
+[       OK ] FilterViewPairsFromRelativeTranslation.ManyBadRotations (10 ms)
+[----------] 4 tests from FilterViewPairsFromRelativeTranslation (14 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test case ran. (14 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"filter_view_pairs_from_relative_translation_test" end time: Apr 21 15:46 EDT
+"filter_view_pairs_from_relative_translation_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+50/101 Testing: find_common_tracks_in_views_test
+50/101 Test: find_common_tracks_in_views_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/find_common_tracks_in_views_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"find_common_tracks_in_views_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 2 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 2 tests from FindCommonTracksInViews
+[ RUN      ] FindCommonTracksInViews.NoCommonTracks
+[       OK ] FindCommonTracksInViews.NoCommonTracks (0 ms)
+[ RUN      ] FindCommonTracksInViews.CommonTracks
+[       OK ] FindCommonTracksInViews.CommonTracks (0 ms)
+[----------] 2 tests from FindCommonTracksInViews (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"find_common_tracks_in_views_test" end time: Apr 21 15:46 EDT
+"find_common_tracks_in_views_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+51/101 Testing: find_common_views_by_name_test
+51/101 Test: find_common_views_by_name_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/find_common_views_by_name_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"find_common_views_by_name_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 3 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 3 tests from FindCommonViewsByName
+[ RUN      ] FindCommonViewsByName.AllViewsInCommon
+[       OK ] FindCommonViewsByName.AllViewsInCommon (0 ms)
+[ RUN      ] FindCommonViewsByName.SomeViewsInCommon
+[       OK ] FindCommonViewsByName.SomeViewsInCommon (0 ms)
+[ RUN      ] FindCommonViewsByName.NoViewsInCommon
+[       OK ] FindCommonViewsByName.NoViewsInCommon (0 ms)
+[----------] 3 tests from FindCommonViewsByName (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 3 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"find_common_views_by_name_test" end time: Apr 21 15:46 EDT
+"find_common_views_by_name_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+52/101 Testing: compute_triplet_baseline_ratios_test
+52/101 Test: compute_triplet_baseline_ratios_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/compute_triplet_baseline_ratios_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"compute_triplet_baseline_ratios_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from ComputeTripletBaselineRatios
+[ RUN      ] ComputeTripletBaselineRatios.NoNoiseSmallScene
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Failed.
+"compute_triplet_baseline_ratios_test" end time: Apr 21 15:46 EDT
+"compute_triplet_baseline_ratios_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+53/101 Testing: least_unsquared_deviation_position_estimator_test
+53/101 Test: least_unsquared_deviation_position_estimator_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/least_unsquared_deviation_position_estimator_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"least_unsquared_deviation_position_estimator_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 2 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 2 tests from EstimatePositionsLeastUnsquaredDeviationTest
+[ RUN      ] EstimatePositionsLeastUnsquaredDeviationTest.SmallTestNoNoise
+[       OK ] EstimatePositionsLeastUnsquaredDeviationTest.SmallTestNoNoise (1 ms)
+[ RUN      ] EstimatePositionsLeastUnsquaredDeviationTest.SmallTestWithNoise
+/Users/coldsilence/TheiaSfM-master/src/theia/sfm/global_pose_estimation/least_unsquared_deviation_position_estimator_test.cc:146: Failure
+Expected: (position_error) < (position_tolerance), actual: 0.121487 vs 0.1
+
+g.t. position = 0.80973612898918912 -4.8243044347354171   8.928812044605742
+estimated position = 0.82723713280968036 -4.8025815319154415   9.047052782201316
+[  FAILED  ] EstimatePositionsLeastUnsquaredDeviationTest.SmallTestWithNoise (3 ms)
+[----------] 2 tests from EstimatePositionsLeastUnsquaredDeviationTest (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test case ran. (4 ms total)
+[  PASSED  ] 1 test.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] EstimatePositionsLeastUnsquaredDeviationTest.SmallTestWithNoise
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Failed.
+"least_unsquared_deviation_position_estimator_test" end time: Apr 21 15:46 EDT
+"least_unsquared_deviation_position_estimator_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+54/101 Testing: linear_position_estimator_test
+54/101 Test: linear_position_estimator_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/linear_position_estimator_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"linear_position_estimator_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 2 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 2 tests from EstimatePositionsLinearTest
+[ RUN      ] EstimatePositionsLinearTest.SmallTestNoNoise
+[       OK ] EstimatePositionsLinearTest.SmallTestNoNoise (1 ms)
+[ RUN      ] EstimatePositionsLinearTest.SmallTestWithNoise
+[       OK ] EstimatePositionsLinearTest.SmallTestWithNoise (0 ms)
+[----------] 2 tests from EstimatePositionsLinearTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test case ran. (2 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"linear_position_estimator_test" end time: Apr 21 15:46 EDT
+"linear_position_estimator_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+55/101 Testing: linear_rotation_estimator_test
+55/101 Test: linear_rotation_estimator_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/linear_rotation_estimator_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"linear_rotation_estimator_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 3 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 3 tests from EstimateRotationsLinearTest
+[ RUN      ] EstimateRotationsLinearTest.SmallTestNoNoise
+[       OK ] EstimateRotationsLinearTest.SmallTestNoNoise (3 ms)
+[ RUN      ] EstimateRotationsLinearTest.SmallTestWithNoise
+[       OK ] EstimateRotationsLinearTest.SmallTestWithNoise (0 ms)
+[ RUN      ] EstimateRotationsLinearTest.LargeTestWithNoise
+[       OK ] EstimateRotationsLinearTest.LargeTestWithNoise (9 ms)
+[----------] 3 tests from EstimateRotationsLinearTest (12 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test case ran. (12 ms total)
+[  PASSED  ] 3 tests.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"linear_rotation_estimator_test" end time: Apr 21 15:46 EDT
+"linear_rotation_estimator_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+56/101 Testing: nonlinear_position_estimator_test
+56/101 Test: nonlinear_position_estimator_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/nonlinear_position_estimator_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"nonlinear_position_estimator_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 2 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 2 tests from EstimatePositionsNonlinearTest
+[ RUN      ] EstimatePositionsNonlinearTest.SmallTestNoNoise
+[       OK ] EstimatePositionsNonlinearTest.SmallTestNoNoise (4 ms)
+[ RUN      ] EstimatePositionsNonlinearTest.SmallTestWithNoise
+[       OK ] EstimatePositionsNonlinearTest.SmallTestWithNoise (0 ms)
+[----------] 2 tests from EstimatePositionsNonlinearTest (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test case ran. (4 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"nonlinear_position_estimator_test" end time: Apr 21 15:46 EDT
+"nonlinear_position_estimator_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+57/101 Testing: pairwise_rotation_error_test
+57/101 Test: pairwise_rotation_error_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/pairwise_rotation_error_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"pairwise_rotation_error_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from PairwiseRotationError
+[ RUN      ] PairwiseRotationError.SmallRotation
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Failed.
+"pairwise_rotation_error_test" end time: Apr 21 15:46 EDT
+"pairwise_rotation_error_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+58/101 Testing: pairwise_translation_and_scale_error_test
+58/101 Test: pairwise_translation_and_scale_error_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/pairwise_translation_and_scale_error_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"pairwise_translation_and_scale_error_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PairwiseTranslationAndScaleError
+[ RUN      ] PairwiseTranslationAndScaleError.TranslationNoNoise
+[       OK ] PairwiseTranslationAndScaleError.TranslationNoNoise (0 ms)
+[----------] 1 test from PairwiseTranslationAndScaleError (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"pairwise_translation_and_scale_error_test" end time: Apr 21 15:46 EDT
+"pairwise_translation_and_scale_error_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+59/101 Testing: pairwise_translation_error_test
+59/101 Test: pairwise_translation_error_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/pairwise_translation_error_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"pairwise_translation_error_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from PairwiseTranslationError
+[ RUN      ] PairwiseTranslationError.NoTranslation
+[       OK ] PairwiseTranslationError.NoTranslation (0 ms)
+[ RUN      ] PairwiseTranslationError.TranslationNoNoise
+[       OK ] PairwiseTranslationError.TranslationNoNoise (0 ms)
+[ RUN      ] PairwiseTranslationError.TranslationWithNoise
+[       OK ] PairwiseTranslationError.TranslationWithNoise (0 ms)
+[ RUN      ] PairwiseTranslationError.NontrivialWeight
+[       OK ] PairwiseTranslationError.NontrivialWeight (0 ms)
+[----------] 4 tests from PairwiseTranslationError (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"pairwise_translation_error_test" end time: Apr 21 15:46 EDT
+"pairwise_translation_error_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+60/101 Testing: robust_rotation_estimator_test
+60/101 Test: robust_rotation_estimator_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/robust_rotation_estimator_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"robust_rotation_estimator_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 3 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 3 tests from EstimateRotationsRobustTest
+[ RUN      ] EstimateRotationsRobustTest.SmallTestNoNoise
+[       OK ] EstimateRotationsRobustTest.SmallTestNoNoise (0 ms)
+[ RUN      ] EstimateRotationsRobustTest.SmallTestWithNoise
+[       OK ] EstimateRotationsRobustTest.SmallTestWithNoise (1 ms)
+[ RUN      ] EstimateRotationsRobustTest.LargeTestWithNoise
+[       OK ] EstimateRotationsRobustTest.LargeTestWithNoise (20 ms)
+[----------] 3 tests from EstimateRotationsRobustTest (22 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test case ran. (22 ms total)
+[  PASSED  ] 3 tests.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"robust_rotation_estimator_test" end time: Apr 21 15:46 EDT
+"robust_rotation_estimator_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+61/101 Testing: gps_converter_test
+61/101 Test: gps_converter_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/gps_converter_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"gps_converter_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 3 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 3 tests from GPSConverter
+[ RUN      ] GPSConverter.ECEFToLLA
+[       OK ] GPSConverter.ECEFToLLA (0 ms)
+[ RUN      ] GPSConverter.LLAToECEF
+[       OK ] GPSConverter.LLAToECEF (0 ms)
+[ RUN      ] GPSConverter.RoundTrip
+[       OK ] GPSConverter.RoundTrip (1 ms)
+[----------] 3 tests from GPSConverter (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 3 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"gps_converter_test" end time: Apr 21 15:46 EDT
+"gps_converter_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+62/101 Testing: hybrid_reconstruction_estimator_test
+62/101 Test: hybrid_reconstruction_estimator_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/hybrid_reconstruction_estimator_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"hybrid_reconstruction_estimator_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 3 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 3 tests from HybridReconstructionEstimator
+[ RUN      ] HybridReconstructionEstimator.BasicTest
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Failed.
+"hybrid_reconstruction_estimator_test" end time: Apr 21 15:46 EDT
+"hybrid_reconstruction_estimator_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+63/101 Testing: incremental_reconstruction_estimator_test
+63/101 Test: incremental_reconstruction_estimator_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/incremental_reconstruction_estimator_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"incremental_reconstruction_estimator_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 5 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 5 tests from IncrementalReconstructionEstimator
+[ RUN      ] IncrementalReconstructionEstimator.BasicTest
+<end of output>
+Test time =   0.14 sec
+----------------------------------------------------------
+Test Failed.
+"incremental_reconstruction_estimator_test" end time: Apr 21 15:46 EDT
+"incremental_reconstruction_estimator_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+64/101 Testing: dls_pnp_test
+64/101 Test: dls_pnp_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/dls_pnp_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"dls_pnp_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 6 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 6 tests from DlsPnp
+[ RUN      ] DlsPnp.Basic
+[       OK ] DlsPnp.Basic (1 ms)
+[ RUN      ] DlsPnp.NoiseTest
+[       OK ] DlsPnp.NoiseTest (0 ms)
+[ RUN      ] DlsPnp.ManyPoints
+[       OK ] DlsPnp.ManyPoints (25 ms)
+[ RUN      ] DlsPnp.NoRotation
+[       OK ] DlsPnp.NoRotation (1 ms)
+[ RUN      ] DlsPnp.NoTranslation
+[       OK ] DlsPnp.NoTranslation (1 ms)
+[ RUN      ] DlsPnp.OrthogonalRotation
+[       OK ] DlsPnp.OrthogonalRotation (0 ms)
+[----------] 6 tests from DlsPnp (28 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 1 test case ran. (28 ms total)
+[  PASSED  ] 6 tests.
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"dls_pnp_test" end time: Apr 21 15:46 EDT
+"dls_pnp_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+65/101 Testing: eight_point_fundamental_matrix_test
+65/101 Test: eight_point_fundamental_matrix_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/eight_point_fundamental_matrix_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"eight_point_fundamental_matrix_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from NormalizedEightPoint
+[ RUN      ] NormalizedEightPoint.BasicTest
+[       OK ] NormalizedEightPoint.BasicTest (0 ms)
+[ RUN      ] NormalizedEightPoint.MinimalNoiseTest
+[       OK ] NormalizedEightPoint.MinimalNoiseTest (0 ms)
+[ RUN      ] NormalizedEightPoint.OverconstrainedNoiseTest
+[       OK ] NormalizedEightPoint.OverconstrainedNoiseTest (0 ms)
+[ RUN      ] NormalizedEightPoint.DegenerateTest
+[       OK ] NormalizedEightPoint.DegenerateTest (0 ms)
+[----------] 4 tests from NormalizedEightPoint (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"eight_point_fundamental_matrix_test" end time: Apr 21 15:46 EDT
+"eight_point_fundamental_matrix_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+66/101 Testing: essential_matrix_utils_test
+66/101 Test: essential_matrix_utils_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/essential_matrix_utils_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"essential_matrix_utils_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 3 test cases.
+[----------] Global test environment set-up.
+[----------] 1 test from DecomposeEssentialMatrix
+[ RUN      ] DecomposeEssentialMatrix.BasicTest
+[       OK ] DecomposeEssentialMatrix.BasicTest (0 ms)
+[----------] 1 test from DecomposeEssentialMatrix (0 ms total)
+
+[----------] 1 test from EssentialMatrixFromTwoProjectionMatrices
+[ RUN      ] EssentialMatrixFromTwoProjectionMatrices.BasicTest
+[       OK ] EssentialMatrixFromTwoProjectionMatrices.BasicTest (0 ms)
+[----------] 1 test from EssentialMatrixFromTwoProjectionMatrices (0 ms total)
+
+[----------] 2 tests from GetBestPoseFromEssentialMatrix
+[ RUN      ] GetBestPoseFromEssentialMatrix.AllInliers
+[       OK ] GetBestPoseFromEssentialMatrix.AllInliers (2 ms)
+[ RUN      ] GetBestPoseFromEssentialMatrix.MostlyInliers
+[       OK ] GetBestPoseFromEssentialMatrix.MostlyInliers (2 ms)
+[----------] 2 tests from GetBestPoseFromEssentialMatrix (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 3 test cases ran. (5 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"essential_matrix_utils_test" end time: Apr 21 15:46 EDT
+"essential_matrix_utils_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+67/101 Testing: five_point_focal_length_radial_distortion_test
+67/101 Test: five_point_focal_length_radial_distortion_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/five_point_focal_length_radial_distortion_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"five_point_focal_length_radial_distortion_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from P5Pfr
+[ RUN      ] P5Pfr.BasicTest
+[       OK ] P5Pfr.BasicTest (0 ms)
+[ RUN      ] P5Pfr.BasicNoiseTest
+[       OK ] P5Pfr.BasicNoiseTest (0 ms)
+[ RUN      ] P5Pfr.PlanarTestNoNoise
+[       OK ] P5Pfr.PlanarTestNoNoise (0 ms)
+[ RUN      ] P5Pfr.PlanarTestWithNoise
+[       OK ] P5Pfr.PlanarTestWithNoise (0 ms)
+[----------] 4 tests from P5Pfr (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"five_point_focal_length_radial_distortion_test" end time: Apr 21 15:46 EDT
+"five_point_focal_length_radial_distortion_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+68/101 Testing: five_point_relative_pose_test
+68/101 Test: five_point_relative_pose_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/five_point_relative_pose_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"five_point_relative_pose_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 8 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 8 tests from FivePointRelativePose
+[ RUN      ] FivePointRelativePose.BasicMinimal
+[       OK ] FivePointRelativePose.BasicMinimal (0 ms)
+[ RUN      ] FivePointRelativePose.NoiseTestMinimal
+[       OK ] FivePointRelativePose.NoiseTestMinimal (0 ms)
+[ RUN      ] FivePointRelativePose.ForwardMotionMinimal
+[       OK ] FivePointRelativePose.ForwardMotionMinimal (0 ms)
+[ RUN      ] FivePointRelativePose.NoRotationMinimal
+[       OK ] FivePointRelativePose.NoRotationMinimal (0 ms)
+[ RUN      ] FivePointRelativePose.BasicNonminimal
+[       OK ] FivePointRelativePose.BasicNonminimal (0 ms)
+[ RUN      ] FivePointRelativePose.NoiseTestNonminimal
+[       OK ] FivePointRelativePose.NoiseTestNonminimal (0 ms)
+[ RUN      ] FivePointRelativePose.ForwardMotionNonminimal
+[       OK ] FivePointRelativePose.ForwardMotionNonminimal (0 ms)
+[ RUN      ] FivePointRelativePose.NoRotationNonminimal
+[       OK ] FivePointRelativePose.NoRotationNonminimal (0 ms)
+[----------] 8 tests from FivePointRelativePose (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 8 tests.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"five_point_relative_pose_test" end time: Apr 21 15:46 EDT
+"five_point_relative_pose_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+69/101 Testing: four_point_focal_length_test
+69/101 Test: four_point_focal_length_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/four_point_focal_length_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"four_point_focal_length_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 3 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 3 tests from P4pf
+[ RUN      ] P4pf.BasicTest
+[       OK ] P4pf.BasicTest (0 ms)
+[ RUN      ] P4pf.BasicNoiseTest
+[       OK ] P4pf.BasicNoiseTest (1 ms)
+[ RUN      ] P4pf.RandomTest
+[       OK ] P4pf.RandomTest (0 ms)
+[----------] 3 tests from P4pf (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 3 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"four_point_focal_length_test" end time: Apr 21 15:46 EDT
+"four_point_focal_length_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+70/101 Testing: four_point_homography_test
+70/101 Test: four_point_homography_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/four_point_homography_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"four_point_homography_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from FourPointHomography
+[ RUN      ] FourPointHomography.BasicTest
+[       OK ] FourPointHomography.BasicTest (0 ms)
+[ RUN      ] FourPointHomography.NoiseTest
+[       OK ] FourPointHomography.NoiseTest (0 ms)
+[ RUN      ] FourPointHomography.PlanarPoints
+[       OK ] FourPointHomography.PlanarPoints (0 ms)
+[ RUN      ] FourPointHomography.ManyPoints
+[       OK ] FourPointHomography.ManyPoints (0 ms)
+[----------] 4 tests from FourPointHomography (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"four_point_homography_test" end time: Apr 21 15:46 EDT
+"four_point_homography_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+71/101 Testing: four_point_relative_pose_partial_rotation_test
+71/101 Test: four_point_relative_pose_partial_rotation_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/four_point_relative_pose_partial_rotation_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"four_point_relative_pose_partial_rotation_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from FourPointEssentialMatrixTest
+[ RUN      ] FourPointEssentialMatrixTest.Basic
+[       OK ] FourPointEssentialMatrixTest.Basic (0 ms)
+[ RUN      ] FourPointEssentialMatrixTest.NoRotation
+[       OK ] FourPointEssentialMatrixTest.NoRotation (0 ms)
+[ RUN      ] FourPointEssentialMatrixTest.NoiseTest
+[       OK ] FourPointEssentialMatrixTest.NoiseTest (0 ms)
+[ RUN      ] FourPointEssentialMatrixTest.IncorrectAxisTest
+[       OK ] FourPointEssentialMatrixTest.IncorrectAxisTest (1 ms)
+[----------] 4 tests from FourPointEssentialMatrixTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"four_point_relative_pose_partial_rotation_test" end time: Apr 21 15:46 EDT
+"four_point_relative_pose_partial_rotation_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+72/101 Testing: fundamental_matrix_util_test
+72/101 Test: fundamental_matrix_util_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/fundamental_matrix_util_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"fundamental_matrix_util_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 3 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 3 tests from FundamentalMatrixUtil
+[ RUN      ] FundamentalMatrixUtil.FocalLengths
+[       OK ] FundamentalMatrixUtil.FocalLengths (0 ms)
+[ RUN      ] FundamentalMatrixUtil.SharedFocalLengthsZeroIntrinsics
+[       OK ] FundamentalMatrixUtil.SharedFocalLengthsZeroIntrinsics (0 ms)
+[ RUN      ] FundamentalMatrixUtil.FundamentalMatrixFromProjectionMatrices
+[       OK ] FundamentalMatrixUtil.FundamentalMatrixFromProjectionMatrices (0 ms)
+[----------] 3 tests from FundamentalMatrixUtil (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 3 tests.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"fundamental_matrix_util_test" end time: Apr 21 15:46 EDT
+"fundamental_matrix_util_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+73/101 Testing: perspective_three_point_test
+73/101 Test: perspective_three_point_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/perspective_three_point_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"perspective_three_point_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 2 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 2 tests from P3P
+[ RUN      ] P3P.PoseFromThreeCalibrated
+[       OK ] P3P.PoseFromThreeCalibrated (0 ms)
+[ RUN      ] P3P.PoseFromThreeCalibratedNoise
+[       OK ] P3P.PoseFromThreeCalibratedNoise (0 ms)
+[----------] 2 tests from P3P (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"perspective_three_point_test" end time: Apr 21 15:46 EDT
+"perspective_three_point_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+74/101 Testing: position_from_two_rays_test
+74/101 Test: position_from_two_rays_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/position_from_two_rays_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"position_from_two_rays_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 3 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 3 tests from PositionFromTwoRaysTest
+[ RUN      ] PositionFromTwoRaysTest.BasicTest
+[       OK ] PositionFromTwoRaysTest.BasicTest (0 ms)
+[ RUN      ] PositionFromTwoRaysTest.DifferentAxesTest
+[       OK ] PositionFromTwoRaysTest.DifferentAxesTest (0 ms)
+[ RUN      ] PositionFromTwoRaysTest.ManyPointsTest
+[       OK ] PositionFromTwoRaysTest.ManyPointsTest (0 ms)
+[----------] 3 tests from PositionFromTwoRaysTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 3 tests.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"position_from_two_rays_test" end time: Apr 21 15:46 EDT
+"position_from_two_rays_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+75/101 Testing: relative_pose_from_two_points_with_known_rotation_test
+75/101 Test: relative_pose_from_two_points_with_known_rotation_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/relative_pose_from_two_points_with_known_rotation_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"relative_pose_from_two_points_with_known_rotation_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 3 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 3 tests from PositionFromTwoRaysTest
+[ RUN      ] PositionFromTwoRaysTest.BasicTest
+[       OK ] PositionFromTwoRaysTest.BasicTest (0 ms)
+[ RUN      ] PositionFromTwoRaysTest.DifferentAxesTest
+[       OK ] PositionFromTwoRaysTest.DifferentAxesTest (0 ms)
+[ RUN      ] PositionFromTwoRaysTest.ManyPointsTest
+[       OK ] PositionFromTwoRaysTest.ManyPointsTest (0 ms)
+[----------] 3 tests from PositionFromTwoRaysTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 3 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"relative_pose_from_two_points_with_known_rotation_test" end time: Apr 21 15:46 EDT
+"relative_pose_from_two_points_with_known_rotation_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+76/101 Testing: seven_point_fundamental_matrix_test
+76/101 Test: seven_point_fundamental_matrix_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/seven_point_fundamental_matrix_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"seven_point_fundamental_matrix_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 3 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 3 tests from SevenPoint
+[ RUN      ] SevenPoint.BasicTest
+[       OK ] SevenPoint.BasicTest (0 ms)
+[ RUN      ] SevenPoint.MinimalNoiseTest
+[       OK ] SevenPoint.MinimalNoiseTest (0 ms)
+[ RUN      ] SevenPoint.DegenerateTest
+[       OK ] SevenPoint.DegenerateTest (0 ms)
+[----------] 3 tests from SevenPoint (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 3 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"seven_point_fundamental_matrix_test" end time: Apr 21 15:46 EDT
+"seven_point_fundamental_matrix_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+77/101 Testing: sim_transform_partial_rotation_test
+77/101 Test: sim_transform_partial_rotation_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/sim_transform_partial_rotation_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"sim_transform_partial_rotation_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 5 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 5 tests from SimTransformPartialRotationTest
+[ RUN      ] SimTransformPartialRotationTest.Basic
+[       OK ] SimTransformPartialRotationTest.Basic (0 ms)
+[ RUN      ] SimTransformPartialRotationTest.NoRotation
+[       OK ] SimTransformPartialRotationTest.NoRotation (1 ms)
+[ RUN      ] SimTransformPartialRotationTest.NoTranslation
+[       OK ] SimTransformPartialRotationTest.NoTranslation (0 ms)
+[ RUN      ] SimTransformPartialRotationTest.NoiseTest
+[       OK ] SimTransformPartialRotationTest.NoiseTest (0 ms)
+[ RUN      ] SimTransformPartialRotationTest.IncorrectAxisTest
+[       OK ] SimTransformPartialRotationTest.IncorrectAxisTest (2 ms)
+[----------] 5 tests from SimTransformPartialRotationTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test case ran. (3 ms total)
+[  PASSED  ] 5 tests.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"sim_transform_partial_rotation_test" end time: Apr 21 15:46 EDT
+"sim_transform_partial_rotation_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+78/101 Testing: three_point_relative_pose_partial_rotation_test
+78/101 Test: three_point_relative_pose_partial_rotation_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/three_point_relative_pose_partial_rotation_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"three_point_relative_pose_partial_rotation_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 5 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 5 tests from ThreePointRelativePosePartialRotationTest
+[ RUN      ] ThreePointRelativePosePartialRotationTest.Basic
+[       OK ] ThreePointRelativePosePartialRotationTest.Basic (0 ms)
+[ RUN      ] ThreePointRelativePosePartialRotationTest.NoRotationTest
+[       OK ] ThreePointRelativePosePartialRotationTest.NoRotationTest (0 ms)
+[ RUN      ] ThreePointRelativePosePartialRotationTest.NoiseTest
+[       OK ] ThreePointRelativePosePartialRotationTest.NoiseTest (0 ms)
+[ RUN      ] ThreePointRelativePosePartialRotationTest.IncorrectAxisTest
+[       OK ] ThreePointRelativePosePartialRotationTest.IncorrectAxisTest (1 ms)
+[ RUN      ] ThreePointRelativePosePartialRotationTest.ManyPoints
+[       OK ] ThreePointRelativePosePartialRotationTest.ManyPoints (89 ms)
+[----------] 5 tests from ThreePointRelativePosePartialRotationTest (90 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test case ran. (90 ms total)
+[  PASSED  ] 5 tests.
+<end of output>
+Test time =   0.14 sec
+----------------------------------------------------------
+Test Passed.
+"three_point_relative_pose_partial_rotation_test" end time: Apr 21 15:46 EDT
+"three_point_relative_pose_partial_rotation_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+79/101 Testing: two_point_pose_partial_rotation_test
+79/101 Test: two_point_pose_partial_rotation_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/two_point_pose_partial_rotation_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"two_point_pose_partial_rotation_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 3 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 3 tests from TwoPointPoseTest
+[ RUN      ] TwoPointPoseTest.BasicTest
+[       OK ] TwoPointPoseTest.BasicTest (0 ms)
+[ RUN      ] TwoPointPoseTest.DifferentAxesTest
+[       OK ] TwoPointPoseTest.DifferentAxesTest (0 ms)
+[ RUN      ] TwoPointPoseTest.ManyPointsTest
+[       OK ] TwoPointPoseTest.ManyPointsTest (0 ms)
+[----------] 3 tests from TwoPointPoseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 3 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"two_point_pose_partial_rotation_test" end time: Apr 21 15:46 EDT
+"two_point_pose_partial_rotation_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+80/101 Testing: reconstruction_test
+80/101 Test: reconstruction_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/reconstruction_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"reconstruction_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 19 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 19 tests from Reconstruction
+[ RUN      ] Reconstruction.ViewIdFromNameValid
+[       OK ] Reconstruction.ViewIdFromNameValid (0 ms)
+[ RUN      ] Reconstruction.ViewIdFromNameInvalid
+[       OK ] Reconstruction.ViewIdFromNameInvalid (0 ms)
+[ RUN      ] Reconstruction.AddView
+[       OK ] Reconstruction.AddView (0 ms)
+[ RUN      ] Reconstruction.AddViewWithCameraIntrinsicsGroup
+[       OK ] Reconstruction.AddViewWithCameraIntrinsicsGroup (1 ms)
+[ RUN      ] Reconstruction.RemoveView
+[       OK ] Reconstruction.RemoveView (0 ms)
+[ RUN      ] Reconstruction.GetViewValid
+[       OK ] Reconstruction.GetViewValid (0 ms)
+[ RUN      ] Reconstruction.GetViewValidInvalid
+[       OK ] Reconstruction.GetViewValidInvalid (0 ms)
+[ RUN      ] Reconstruction.GetViewsInCameraIntrinsicGroup
+[       OK ] Reconstruction.GetViewsInCameraIntrinsicGroup (0 ms)
+[ RUN      ] Reconstruction.CameraIntrinsicsGroupIds
+[       OK ] Reconstruction.CameraIntrinsicsGroupIds (0 ms)
+[ RUN      ] Reconstruction.AddEmptyTrack
+[       OK ] Reconstruction.AddEmptyTrack (0 ms)
+[ RUN      ] Reconstruction.AddObservationValid
+[       OK ] Reconstruction.AddObservationValid (0 ms)
+[ RUN      ] Reconstruction.AddObservationInvalid
+[       OK ] Reconstruction.AddObservationInvalid (0 ms)
+[ RUN      ] Reconstruction.AddTrackValid
+[       OK ] Reconstruction.AddTrackValid (0 ms)
+[ RUN      ] Reconstruction.AddTrackInvalid
+[       OK ] Reconstruction.AddTrackInvalid (0 ms)
+[ RUN      ] Reconstruction.RemoveTrackValid
+[       OK ] Reconstruction.RemoveTrackValid (0 ms)
+[ RUN      ] Reconstruction.RemoveTrackInvalid
+[       OK ] Reconstruction.RemoveTrackInvalid (0 ms)
+[ RUN      ] Reconstruction.GetTrackValid
+[       OK ] Reconstruction.GetTrackValid (0 ms)
+[ RUN      ] Reconstruction.GetTrackInvalid
+[       OK ] Reconstruction.GetTrackInvalid (0 ms)
+[ RUN      ] Reconstruction.GetSubReconstruction
+[       OK ] Reconstruction.GetSubReconstruction (264 ms)
+[----------] 19 tests from Reconstruction (265 ms total)
+
+[----------] Global test environment tear-down
+[==========] 19 tests from 1 test case ran. (265 ms total)
+[  PASSED  ] 19 tests.
+<end of output>
+Test time =   0.30 sec
+----------------------------------------------------------
+Test Passed.
+"reconstruction_test" end time: Apr 21 15:46 EDT
+"reconstruction_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+81/101 Testing: track_test
+81/101 Test: track_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/track_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"track_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from Track
+[ RUN      ] Track.Default
+[       OK ] Track.Default (0 ms)
+[ RUN      ] Track.Estimated
+[       OK ] Track.Estimated (0 ms)
+[ RUN      ] Track.Views
+[       OK ] Track.Views (0 ms)
+[ RUN      ] Track.ViewIds
+[       OK ] Track.ViewIds (0 ms)
+[----------] 4 tests from Track (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"track_test" end time: Apr 21 15:46 EDT
+"track_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+82/101 Testing: track_builder_test
+82/101 Test: track_builder_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/track_builder_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"track_builder_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 5 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 5 tests from TrackBuilder
+[ RUN      ] TrackBuilder.ConsistentTracks
+[       OK ] TrackBuilder.ConsistentTracks (0 ms)
+[ RUN      ] TrackBuilder.SingletonTracks
+[       OK ] TrackBuilder.SingletonTracks (0 ms)
+[ RUN      ] TrackBuilder.InconsistentTracks
+[       OK ] TrackBuilder.InconsistentTracks (0 ms)
+[ RUN      ] TrackBuilder.MaxTrackLength
+[       OK ] TrackBuilder.MaxTrackLength (0 ms)
+[ RUN      ] TrackBuilder.MinTrackLength
+[       OK ] TrackBuilder.MinTrackLength (0 ms)
+[----------] 5 tests from TrackBuilder (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 5 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"track_builder_test" end time: Apr 21 15:46 EDT
+"track_builder_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+83/101 Testing: align_point_clouds_test
+83/101 Test: align_point_clouds_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/align_point_clouds_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"align_point_clouds_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 2 tests from 2 test cases.
+[----------] Global test environment set-up.
+[----------] 1 test from AlignPointCloudsUmeyama
+[ RUN      ] AlignPointCloudsUmeyama.SimpleTest
+[       OK ] AlignPointCloudsUmeyama.SimpleTest (0 ms)
+[----------] 1 test from AlignPointCloudsUmeyama (0 ms total)
+
+[----------] 1 test from AlignPointCloudsUmeyamaWithWeights
+[ RUN      ] AlignPointCloudsUmeyamaWithWeights.WeightsAndNoise
+[       OK ] AlignPointCloudsUmeyamaWithWeights.WeightsAndNoise (62 ms)
+[----------] 1 test from AlignPointCloudsUmeyamaWithWeights (62 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 2 test cases ran. (62 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"align_point_clouds_test" end time: Apr 21 15:46 EDT
+"align_point_clouds_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+84/101 Testing: align_reconstructions_test
+84/101 Test: align_reconstructions_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/align_reconstructions_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"align_reconstructions_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 5 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 5 tests from AlignReconstructions
+[ RUN      ] AlignReconstructions.Identity
+[       OK ] AlignReconstructions.Identity (0 ms)
+[ RUN      ] AlignReconstructions.Scale
+[       OK ] AlignReconstructions.Scale (0 ms)
+[ RUN      ] AlignReconstructions.Rotation
+[       OK ] AlignReconstructions.Rotation (0 ms)
+[ RUN      ] AlignReconstructions.Translation
+[       OK ] AlignReconstructions.Translation (1 ms)
+[ RUN      ] AlignReconstructions.SimilarityTransformation
+[       OK ] AlignReconstructions.SimilarityTransformation (0 ms)
+[----------] 5 tests from AlignReconstructions (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 5 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"align_reconstructions_test" end time: Apr 21 15:46 EDT
+"align_reconstructions_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+85/101 Testing: align_rotations_test
+85/101 Test: align_rotations_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/align_rotations_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"align_rotations_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 2 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 2 tests from AlignRotations
+[ RUN      ] AlignRotations.NoNoise
+[       OK ] AlignRotations.NoNoise (0 ms)
+[ RUN      ] AlignRotations.Noise
+[       OK ] AlignRotations.Noise (1 ms)
+[----------] 2 tests from AlignRotations (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"align_rotations_test" end time: Apr 21 15:46 EDT
+"align_rotations_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+86/101 Testing: gdls_similarity_transform_test
+86/101 Test: gdls_similarity_transform_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/gdls_similarity_transform_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"gdls_similarity_transform_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 5 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 5 tests from GdlsSimilarityTransform
+[ RUN      ] GdlsSimilarityTransform.Basic
+[       OK ] GdlsSimilarityTransform.Basic (2 ms)
+[ RUN      ] GdlsSimilarityTransform.NoiseTest
+[       OK ] GdlsSimilarityTransform.NoiseTest (0 ms)
+[ RUN      ] GdlsSimilarityTransform.ManyPoints
+[       OK ] GdlsSimilarityTransform.ManyPoints (24 ms)
+[ RUN      ] GdlsSimilarityTransform.NoRotation
+[       OK ] GdlsSimilarityTransform.NoRotation (1 ms)
+[ RUN      ] GdlsSimilarityTransform.NoTranslation
+[       OK ] GdlsSimilarityTransform.NoTranslation (1 ms)
+[----------] 5 tests from GdlsSimilarityTransform (28 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test case ran. (28 ms total)
+[  PASSED  ] 5 tests.
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"gdls_similarity_transform_test" end time: Apr 21 15:46 EDT
+"gdls_similarity_transform_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+87/101 Testing: triangulation_test
+87/101 Test: triangulation_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/triangulation_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"triangulation_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 15 tests from 6 test cases.
+[----------] Global test environment set-up.
+[----------] 2 tests from Triangulation
+[ RUN      ] Triangulation.BasicTest
+[       OK ] Triangulation.BasicTest (0 ms)
+[ RUN      ] Triangulation.NoiseTest
+[       OK ] Triangulation.NoiseTest (0 ms)
+[----------] 2 tests from Triangulation (0 ms total)
+
+[----------] 2 tests from TriangulationDLT
+[ RUN      ] TriangulationDLT.BasicTest
+[       OK ] TriangulationDLT.BasicTest (0 ms)
+[ RUN      ] TriangulationDLT.NoiseTest
+[       OK ] TriangulationDLT.NoiseTest (0 ms)
+[----------] 2 tests from TriangulationDLT (0 ms total)
+
+[----------] 2 tests from TriangulationMidpoint
+[ RUN      ] TriangulationMidpoint.BasicTest
+[       OK ] TriangulationMidpoint.BasicTest (0 ms)
+[ RUN      ] TriangulationMidpoint.NoiseTest
+[       OK ] TriangulationMidpoint.NoiseTest (0 ms)
+[----------] 2 tests from TriangulationMidpoint (0 ms total)
+
+[----------] 2 tests from TriangulationNView
+[ RUN      ] TriangulationNView.BasicTest
+[       OK ] TriangulationNView.BasicTest (0 ms)
+[ RUN      ] TriangulationNView.NoiseTest
+[       OK ] TriangulationNView.NoiseTest (0 ms)
+[----------] 2 tests from TriangulationNView (0 ms total)
+
+[----------] 3 tests from IsTriangulatedPointInFrontOfCameras
+[ RUN      ] IsTriangulatedPointInFrontOfCameras.InFront
+[       OK ] IsTriangulatedPointInFrontOfCameras.InFront (0 ms)
+[ RUN      ] IsTriangulatedPointInFrontOfCameras.Behind
+[       OK ] IsTriangulatedPointInFrontOfCameras.Behind (0 ms)
+[ RUN      ] IsTriangulatedPointInFrontOfCameras.OneInFrontOneBehind
+[       OK ] IsTriangulatedPointInFrontOfCameras.OneInFrontOneBehind (0 ms)
+[----------] 3 tests from IsTriangulatedPointInFrontOfCameras (0 ms total)
+
+[----------] 4 tests from SufficientTriangulationAngle
+[ RUN      ] SufficientTriangulationAngle.AllSufficient
+[       OK ] SufficientTriangulationAngle.AllSufficient (0 ms)
+[ RUN      ] SufficientTriangulationAngle.AllInsufficient
+[       OK ] SufficientTriangulationAngle.AllInsufficient (0 ms)
+[ RUN      ] SufficientTriangulationAngle.SomeInsufficient
+[       OK ] SufficientTriangulationAngle.SomeInsufficient (0 ms)
+[ RUN      ] SufficientTriangulationAngle.TwoInsufficient
+[       OK ] SufficientTriangulationAngle.TwoInsufficient (0 ms)
+[----------] 4 tests from SufficientTriangulationAngle (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 15 tests from 6 test cases ran. (0 ms total)
+[  PASSED  ] 15 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"triangulation_test" end time: Apr 21 15:46 EDT
+"triangulation_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+88/101 Testing: twoview_info_test
+88/101 Test: twoview_info_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/twoview_info_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"twoview_info_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from TwoViewInfo
+[ RUN      ] TwoViewInfo.SwapCameras
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Failed.
+"twoview_info_test" end time: Apr 21 15:46 EDT
+"twoview_info_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+89/101 Testing: view_test
+89/101 Test: view_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/view_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"view_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from View
+[ RUN      ] View.Name
+[       OK ] View.Name (0 ms)
+[ RUN      ] View.Estimated
+[       OK ] View.Estimated (0 ms)
+[ RUN      ] View.Features
+[       OK ] View.Features (0 ms)
+[ RUN      ] View.TrackIds
+[       OK ] View.TrackIds (0 ms)
+[----------] 4 tests from View (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"view_test" end time: Apr 21 15:46 EDT
+"view_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+90/101 Testing: orientations_from_maximum_spanning_tree_test
+90/101 Test: orientations_from_maximum_spanning_tree_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/orientations_from_maximum_spanning_tree_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"orientations_from_maximum_spanning_tree_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 2 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 2 tests from OrientationsFromViewGraph
+[ RUN      ] OrientationsFromViewGraph.SmallTest
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Failed.
+"orientations_from_maximum_spanning_tree_test" end time: Apr 21 15:46 EDT
+"orientations_from_maximum_spanning_tree_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+91/101 Testing: remove_disconnected_view_pairs_test
+91/101 Test: remove_disconnected_view_pairs_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/remove_disconnected_view_pairs_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"remove_disconnected_view_pairs_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 3 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 3 tests from RemoveDisconnectedViewPairs
+[ RUN      ] RemoveDisconnectedViewPairs.SingleConnectedComponent
+[       OK ] RemoveDisconnectedViewPairs.SingleConnectedComponent (1 ms)
+[ RUN      ] RemoveDisconnectedViewPairs.TwoConnectedComponents
+[       OK ] RemoveDisconnectedViewPairs.TwoConnectedComponents (0 ms)
+[ RUN      ] RemoveDisconnectedViewPairs.ThreeConnectedComponents
+[       OK ] RemoveDisconnectedViewPairs.ThreeConnectedComponents (0 ms)
+[----------] 3 tests from RemoveDisconnectedViewPairs (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 3 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"remove_disconnected_view_pairs_test" end time: Apr 21 15:46 EDT
+"remove_disconnected_view_pairs_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+92/101 Testing: view_graph_test
+92/101 Test: view_graph_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/view_graph_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"view_graph_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 6 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 6 tests from ViewGraph
+[ RUN      ] ViewGraph.Constructor
+[       OK ] ViewGraph.Constructor (0 ms)
+[ RUN      ] ViewGraph.RemoveView
+[       OK ] ViewGraph.RemoveView (0 ms)
+[ RUN      ] ViewGraph.AddEdge
+[       OK ] ViewGraph.AddEdge (0 ms)
+[ RUN      ] ViewGraph.RemoveEdge
+[       OK ] ViewGraph.RemoveEdge (0 ms)
+[ RUN      ] ViewGraph.ExtractSubgraphBasic
+[       OK ] ViewGraph.ExtractSubgraphBasic (0 ms)
+[ RUN      ] ViewGraph.ExtractSubgraphLarge
+[       OK ] ViewGraph.ExtractSubgraphLarge (4 ms)
+[----------] 6 tests from ViewGraph (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 1 test case ran. (4 ms total)
+[  PASSED  ] 6 tests.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"view_graph_test" end time: Apr 21 15:46 EDT
+"view_graph_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+93/101 Testing: exhaustive_ransac_test
+93/101 Test: exhaustive_ransac_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/exhaustive_ransac_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"exhaustive_ransac_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 2 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 2 tests from RansacTest
+[ RUN      ] RansacTest.LineFitting
+[       OK ] RansacTest.LineFitting (7 ms)
+[ RUN      ] RansacTest.TerminationNumInliers
+[       OK ] RansacTest.TerminationNumInliers (8 ms)
+[----------] 2 tests from RansacTest (15 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test case ran. (15 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"exhaustive_ransac_test" end time: Apr 21 15:46 EDT
+"exhaustive_ransac_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+94/101 Testing: exhaustive_sampler_test
+94/101 Test: exhaustive_sampler_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/exhaustive_sampler_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"exhaustive_sampler_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ExhaustiveSampler
+[ RUN      ] ExhaustiveSampler.EnsureExhaustiveSample
+[       OK ] ExhaustiveSampler.EnsureExhaustiveSample (1 ms)
+[----------] 1 test from ExhaustiveSampler (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"exhaustive_sampler_test" end time: Apr 21 15:46 EDT
+"exhaustive_sampler_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+95/101 Testing: evsac_test
+95/101 Test: evsac_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/evsac_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"evsac_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 2 test cases.
+[----------] Global test environment set-up.
+[----------] 3 tests from EvsacSamplerTest
+[ RUN      ] EvsacSamplerTest.CalculateKSmallestDistances
+[       OK ] EvsacSamplerTest.CalculateKSmallestDistances (0 ms)
+[ RUN      ] EvsacSamplerTest.MRRayleighPrediction
+[       OK ] EvsacSamplerTest.MRRayleighPrediction (0 ms)
+[ RUN      ] EvsacSamplerTest.MixtureModelParamsCalculation
+[       OK ] EvsacSamplerTest.MixtureModelParamsCalculation (1 ms)
+[----------] 3 tests from EvsacSamplerTest (1 ms total)
+
+[----------] 1 test from EvsacTest
+[ RUN      ] EvsacTest.HomographyEstimationWithEvsacSampling
+[       OK ] EvsacTest.HomographyEstimationWithEvsacSampling (3 ms)
+[----------] 1 test from EvsacTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 2 test cases ran. (4 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"evsac_test" end time: Apr 21 15:46 EDT
+"evsac_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+96/101 Testing: lmed_test
+96/101 Test: lmed_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/lmed_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"lmed_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 2 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 2 tests from LmedTest
+[ RUN      ] LmedTest.ComputingQualityMeasureOfCorrectModel
+[       OK ] LmedTest.ComputingQualityMeasureOfCorrectModel (1 ms)
+[ RUN      ] LmedTest.LineFitting
+[       OK ] LmedTest.LineFitting (16 ms)
+[----------] 2 tests from LmedTest (17 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test case ran. (18 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"lmed_test" end time: Apr 21 15:46 EDT
+"lmed_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+97/101 Testing: prosac_test
+97/101 Test: prosac_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/prosac_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"prosac_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ProsacTest
+[ RUN      ] ProsacTest.LineFitting
+[       OK ] ProsacTest.LineFitting (8 ms)
+[----------] 1 test from ProsacTest (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (8 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"prosac_test" end time: Apr 21 15:46 EDT
+"prosac_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+98/101 Testing: random_sampler_test
+98/101 Test: random_sampler_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/random_sampler_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"random_sampler_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RandomSampler
+[ RUN      ] RandomSampler.UniqueMinimalSample
+[       OK ] RandomSampler.UniqueMinimalSample (0 ms)
+[----------] 1 test from RandomSampler (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"random_sampler_test" end time: Apr 21 15:46 EDT
+"random_sampler_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+99/101 Testing: ransac_test
+99/101 Test: ransac_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/ransac_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"ransac_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 2 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 2 tests from RansacTest
+[ RUN      ] RansacTest.LineFitting
+[       OK ] RansacTest.LineFitting (7 ms)
+[ RUN      ] RansacTest.TerminationNumInliers
+[       OK ] RansacTest.TerminationNumInliers (9 ms)
+[----------] 2 tests from RansacTest (16 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test case ran. (16 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"ransac_test" end time: Apr 21 15:46 EDT
+"ransac_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+100/101 Testing: mutable_priority_queue_test
+100/101 Test: mutable_priority_queue_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/mutable_priority_queue_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"mutable_priority_queue_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 7 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 7 tests from MutablePriorityQueue
+[ RUN      ] MutablePriorityQueue.Constructor
+[       OK ] MutablePriorityQueue.Constructor (0 ms)
+[ RUN      ] MutablePriorityQueue.Clear
+[       OK ] MutablePriorityQueue.Clear (0 ms)
+[ RUN      ] MutablePriorityQueue.Erase
+[       OK ] MutablePriorityQueue.Erase (0 ms)
+[ RUN      ] MutablePriorityQueue.Pop
+[       OK ] MutablePriorityQueue.Pop (0 ms)
+[ RUN      ] MutablePriorityQueue.Update
+[       OK ] MutablePriorityQueue.Update (0 ms)
+[ RUN      ] MutablePriorityQueue.Find
+[       OK ] MutablePriorityQueue.Find (0 ms)
+[ RUN      ] MutablePriorityQueue.MaxQueue
+[       OK ] MutablePriorityQueue.MaxQueue (0 ms)
+[----------] 7 tests from MutablePriorityQueue (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 7 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"mutable_priority_queue_test" end time: Apr 21 15:46 EDT
+"mutable_priority_queue_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+101/101 Testing: lru_cache_test
+101/101 Test: lru_cache_test
+Command: "/Users/coldsilence/TheiaSfM-master/theia-build/bin/lru_cache_test"
+Directory: /Users/coldsilence/TheiaSfM-master/theia-build/src/theia
+"lru_cache_test" start time: Apr 21 15:46 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from LRUCache
+[ RUN      ] LRUCache.Construtor
+[       OK ] LRUCache.Construtor (0 ms)
+[ RUN      ] LRUCache.FetchWorksWithOneEntry
+[       OK ] LRUCache.FetchWorksWithOneEntry (0 ms)
+[ RUN      ] LRUCache.FetchWorksWithManyEntries
+[       OK ] LRUCache.FetchWorksWithManyEntries (0 ms)
+[ RUN      ] LRUCache.FetchWithCacheMiss
+[       OK ] LRUCache.FetchWithCacheMiss (0 ms)
+[----------] 4 tests from LRUCache (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"lru_cache_test" end time: Apr 21 15:46 EDT
+"lru_cache_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 21 15:46 EDT
